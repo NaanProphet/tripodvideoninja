@@ -14,5 +14,5 @@ services:
     - .env.dev
     command: >
       sh -c "bundle install &&
-            sh ./build-dev.sh &&
+            sh ./algolia-dev.sh &&
             bundle exec jekyll serve -w --config _config.yml,_config-dev.yml -H 0.0.0.0"
