@@ -2,12 +2,28 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3ef632d9-b4a7-4279-9325-93a01ab6bd6d/deploy-status)](https://app.netlify.com/sites/dazzling-keller-ced861/deploys)
 
-Personal videography site created using Jekyll, built and hosted by [Netlify](https://www.netlify.com), and provided via [Hover](https://www.hover.com).
+Personal videography site created using Jekyll, built and hosted by [Netlify](https://www.netlify.com), indexed by [Algolia](https://www.algolia.com), and provided via [Hover](https://www.hover.com).
 
 <img src="_assets/images/logo.png" width=150px />
 
-## Running Locally
+## Running Locally via Docker
 
-To install all necessary dependencies on your machine, first run `bundle install`.
+1. Ensure [Docker Desktop](https://www.docker.com/products/docker-desktop) is installed and running in the background.
+2. Create a new file `.env.dev` with the Algolia Admin API Key. This file is excluded automatically as part of .gitignore. `echo ALGOLIA_API_KEY=<my_api_key> > .env.dev`
+3. Run `docker-compose up -d` and visit <http://localhost:4000> after the container starts up.
 
-To run the localhost server, use `bundle exec jekyll --serve`.
+Note: any edits to pages will automatically refresh. To regenerate Algolia indexes, simply restart the container or run `build-dev.sh` manually from the Docker terminal. Algolia is used for searching posts and used to populate the homepage.
+
+
+## CI/CD
+
+Commits to the `master` branch will trigger a build and deploy via Github-Netlify integration.
+
+* Build command: `jekyll build && jekyll algolia`
+* Environment variables: `ALGOLIA_API_KEY=` and `JEKYLL_ENV=production`
+* Publish directory: `_site`
+
+## References
+
+* <https://www.kunalnagar.in/blog/setup-docker-jekyll-dev-environment/>
+* <https://githubplus.com/jekyll/jekyll-admin/issues/460>
