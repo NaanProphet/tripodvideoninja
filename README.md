@@ -12,7 +12,12 @@ Personal videography site created using Jekyll, built and hosted by [Netlify](ht
 2. Create a new file `.env.dev` with the Algolia Admin API Key. This file is excluded automatically as part of .gitignore. `echo ALGOLIA_API_KEY=<my_api_key> > .env.dev`
 3. Run `docker-compose up -d` and visit <http://localhost:4000> after the container starts up.
 
-Note: any edits to pages will automatically refresh. To regenerate Algolia indexes, simply restart the container or run `build-dev.sh` manually from the Docker terminal. Algolia is used for searching posts and used to populate the homepage.
+
+**Notes**
+
+* Any edits to pages will automatically refresh.
+* To regenerate Algolia indexes, simply restart the container or run `build-dev.sh` manually from the Docker terminal. Algolia is used for searching posts and used to populate the homepage.
+* Changes to the `Dockerfile` like upgrading the base OS image should be followed by deleting the image from Docker Desktop. Otherwise `docker-compose` will reuse the old image when it spins up the container.
 
 
 ## CI/CD
