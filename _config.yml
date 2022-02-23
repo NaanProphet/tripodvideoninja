@@ -18,6 +18,8 @@ github_username: NaanProphet
 markdown: kramdown
 theme: minima
 google_analytics: UA-121779698-1
+exclude:
+  - README.md
 
 # Plugin settings
 reading_time:
