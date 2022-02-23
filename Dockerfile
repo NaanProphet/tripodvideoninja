@@ -13,4 +13,6 @@ RUN echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc && \
 
 RUN gem install jekyll bundler && gem update --system
 
+RUN bundle config --global silence_root_warning 1
+
 EXPOSE 4000
