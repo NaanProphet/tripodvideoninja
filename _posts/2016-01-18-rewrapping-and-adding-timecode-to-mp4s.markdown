@@ -6,8 +6,6 @@ date:   2016-01-24 11:37:23 -0500
 categories: codecs
 ---
 
-*[Updated July 5, 2019 with wording and ordering changes.]*
-
 * TOC
 {:toc}
 
@@ -165,3 +163,6 @@ Another rather serious hiccup was... the Compressor render never completed!
 
 Turns out the original movie file I inherited was somehow corrupt. (Photos probably isn't the best tool to import AVCHD footage.) Not CinePlay's fault at all but it does knock it out of first place for fault tolerance!
 
+### History
+
+*[Updated July 5, 2019 with wording and ordering changes.]*

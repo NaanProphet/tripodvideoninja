@@ -6,8 +6,6 @@ date:   2018-09-24 11:31:32 Z
 categories: metadata
 ---
 
-*[This article was originally drafted in January 2016. As you can see, it has been quite a quest...]*
-
 * TOC
 {:toc}
 
@@ -222,3 +220,7 @@ TagSpaces could be a really interesting competitor to Kyno, granted it may take 
 
 [^14]: "The Write XMP IDs To Files On Import preference only controls whether unique ID values are automatically written to files during import. This preference does not control whether XMP metadata is written to a file under other circumstances, such as when you edit metadata in the Metadata panel." <https://helpx.adobe.com/prelude/using/prelude-set-preferences.html>
 [^15]: Adobe forums [Anyway to default saving prelude metadata outside the video file](https://forums.adobe.com/thread/1837913)
+
+### History
+
+*[This article was originally drafted in January 2016. As you can see, it has been quite a quest...]*

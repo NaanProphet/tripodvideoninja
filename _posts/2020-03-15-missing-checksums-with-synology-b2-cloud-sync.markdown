@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  Missing Checksums in NAS to Cloud Archives
+title:  Missing Checksums in NAS Cloud Archives
 subtitle: Caveats Moving TBs from a Synology to B2
 date:   2020-03-15 15:21:00 Z
 categories: storage
 ---
-
-*[This article was originally drafted in September 2018. At long last...]*
 
 * TOC
 {:toc}
@@ -80,3 +78,7 @@ If you care about checksums for files over 4 GB, don't use Synology Cloud Sync. 
 [^4]: <https://help.backblaze.com/hc/en-us/articles/218020298-Does-B2-require-a-SHA-1-hash-to-be-provided-with-an-upload->
 [^5]: <https://rclone.org/overview/#features>
 [^6]: <https://www.backblaze.com/b2/docs/b2_upload_part.html>
+
+### History
+
+*[This article was originally drafted in September 2018. At long last...]*

@@ -5,7 +5,6 @@ subtitle: "Goodbye fear of broken media links!"
 date:   2016-01-09 20:37:41 -0500
 categories: metadata
 ---
-*[Updated September 28, 2018 wording changes for clarity.]*
 
 * TOC
 {:toc}
@@ -235,3 +234,7 @@ Hit the road, Jack!
 [^7]: <https://en.wikipedia.org/wiki/Final_Cut_Pro_X#Evolution>{:target="_blank"}
 [^8]: <https://en.wikipedia.org/wiki/Adobe_Premiere_Pro#Release_history>{:target="_blank"}
 [^9]: Understanding "Write XMP ID to Files on Import" <https://forums.adobe.com/thread/682174>
+
+### History
+
+*[Updated September 28, 2018 wording changes for clarity.]*

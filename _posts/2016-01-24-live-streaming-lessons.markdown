@@ -5,10 +5,6 @@ date:   2016-01-24 14:34:38 -0500
 categories: livestream
 ---
 
-*[Updated Feb. 4, 2017 with additional Wirecast Record to Disk information.]*
-
-*[Updated May 14, 2018 with renamed titles, edits, and updated Wirecast best practices.]*
-
 * TOC
 {:toc}
 
@@ -112,3 +108,9 @@ When doing so the following tricks minimize dropped frames:
 		<br />CPU above 80% can result in problems. External hard drives have very little impact with overall CPU use.
 		Apple ProRes is a professional post production codec. H.264 is generally not best for post workflow. It can take significant CPU resources to encode (and decode in post).
 		</blockquote>
+
+### History
+
+*[Updated Feb. 4, 2017 with additional Wirecast Record to Disk information.]*
+
+*[Updated May 14, 2018 with renamed titles, edits, and updated Wirecast best practices.]*

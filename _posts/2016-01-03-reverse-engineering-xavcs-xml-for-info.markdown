@@ -5,8 +5,6 @@ date:   2016-01-03 18:15:56 -0500
 categories: codecs
 ---
 
-*[Updated May 14, 2018 with wording changes.]*
-
 * TOC
 {:toc}
 
@@ -157,3 +155,7 @@ These files are located inside `PRIVATE/M4ROOT/CLIP` and sit alongside the actua
 	<RecordingMode type="normal" cacheRec="false"/>
 </NonRealTimeMeta>
 ~~~
+
+### History
+
+*[Updated May 14, 2018 with wording changes.]*

@@ -6,10 +6,6 @@ date: 2018-07-17 22:02:32 Z
 categories: repair
 ---
 
-*[Updated Sep. 16, 2018 with detailed After Effects walkthrough.]*
-
-*[Updated Sep. 26, 2018 with fast-loading ProRes 422 picture and video samples.]*
-
 * TOC
 {:toc}
 ### Upconverting 480p Footage
@@ -112,3 +108,9 @@ On the iMac with 12 GB RAM however, I had no trouble queueing up multiple render
 [^1]: Red Giant's video guide for the Instant 4K plugin, from where my default settings were taken from. <https://www.redgiant.com/tutorial/getting-started-with-instant-4k/>
 [^2]: The 853x480 file could only be resized to 1920x1079 in QuickTime Player X because of roundoff error. Hence the slight 1 pixel height difference when cycling between the two files.
 [^3]: This slideshow is not a GIF. It's rendered with Javascript with two PNG images, in order to minimize compression losses.
+
+### History
+
+*[Updated Sep. 16, 2018 with detailed After Effects walkthrough.]*
+
+*[Updated Sep. 26, 2018 with fast-loading ProRes 422 picture and video samples.]*
