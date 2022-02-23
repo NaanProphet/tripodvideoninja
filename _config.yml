@@ -20,6 +20,11 @@ theme: minima
 google_analytics: UA-121779698-1
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - docker-compose.yml
+  - algolia-dev.sh
 
 # Plugin settings
 reading_time:
