@@ -103,3 +103,14 @@ defaults:
       toc_sticky: true
       show_date: true
 
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/tripodninja"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/NaanProphet"
+    - label: "Email"
+      icon: "fas fa-fw fa-paper-plane"
+      url: "mailto:email@krishna.video"
