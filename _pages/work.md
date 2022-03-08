@@ -1,7 +1,7 @@
 ---
-layout: archive
+layout: single
 title: CV
-permalink: /cv/
+permalink: /cv
 ---
 
 Over the years, I've filmed student recitals, professional recitals, and streaming content for organizations. I've worked at venues ranging from intimate house concerts to large spaces, like the Kennedy Center and Wolf Trap.

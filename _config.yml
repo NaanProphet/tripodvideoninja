@@ -102,6 +102,16 @@ defaults:
       toc_label: "Table of Contents"
       toc_sticky: true
       show_date: true
+  # _foo
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide_post
+      toc: true
+      toc_label: "Table of Contents"
+      toc_sticky: true
 
 footer:
   links:
