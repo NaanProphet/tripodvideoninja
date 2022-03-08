@@ -92,6 +92,7 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide_post
       author_profile: false
       read_time: true
       comments: false
