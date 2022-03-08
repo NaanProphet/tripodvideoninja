@@ -30,9 +30,9 @@ Digitized over 20 years and 10 TB of concert footage from MiniDV tapes, 8mm tape
 
 Responsible for multicam filming, editing, and live-streaming the annual All-Night Concert in NYC.
 
-{% youtube uEVzR4e2hCk %}
+{% include video id="uEVzR4e2hCk" provider="youtube" %}
 
-{% youtube Uc4cTu30OVM %}
+{% include video id="Uc4cTu30OVM" provider="youtube" %}
 
 ### Freelance Student Videographer @ UMD (2010-2011)
 
@@ -48,10 +48,10 @@ In 2010, I slowly began sneaking my camera over to the music wing to film my fri
 #### Karl Wiederwohl
 Video recording, audio syncing, and editing.
 
-{% youtube nY4tpb8O_Rg %}
-{% youtube BikSki_KMlg %}
-{% youtube yUlEsaBRJ8A %}
-{% youtube PvEGICNoTRI %}
+{% include video id="nY4tpb8O_Rg" provider="youtube" %}
+{% include video id="BikSki_KMlg" provider="youtube" %}
+{% include video id="yUlEsaBRJ8A" provider="youtube" %}
+{% include video id="PvEGICNoTRI" provider="youtube" %}
 This particular one has fond memories. Filmed inside the UMD Physics Lecture Halls after hours. Tripod and camera were on a dolley with wheels and I as cameraman slowly tried to pan in time with the music!
 
 #### Daniel Sender
@@ -92,7 +92,7 @@ Through these talks, I learned:
 - How to denoise audio and its limits
 - How to record and edit with two cameras by myself
 
-{% vimeo 9420749 %}
+{% include video id="9420749" provider="vimeo" %}
 *January 26, 2010. Econophysics talk by statistical mechanics professor, Victor Yakovenko.*
 
 This two-camera rig consists of one [Sony HDR-FX7 HDV](https://www.bhphotovideo.com/c/product/459129-REG/Sony_HDRFX7_HDR_FX7_3CMOS_HDV_1080i.html){:target="_blank"} camera actively keeping the speaker in the lower right corner of the shot, while another static camera (the older Canon XL2) films the projector screen itself.
@@ -101,7 +101,7 @@ In post, the second camera is cropped and overlayed picture-in-picture with a li
 
 Dr. Yakovenko was later recognized an interviewed by New Economic Thinking in 2013 ([video](https://youtu.be/aBxjrAjrIZY){:target="blank"}) for his research in econophysics.
 
-{% vimeo 17413519 %}
+{% include video id="17413519" provider="vimeo" %}
 *November 16, 2010. Distinguished Scholar-Teacher Lecture by Professor Bill Dorland.*
 
 This was the first time I nuanced the editing process further by overlaying original powerpoint slides where appropriate, and mixing ambient camera audio to salvage the audience's spontaneous unmiked questions. I used the same picture-in-picture effect when the laser pointer was used.

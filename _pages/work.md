@@ -20,8 +20,8 @@ Over the years, I've filmed student recitals, professional recitals, and streami
 * YouTube Closed Captions in multiple languages
 * Cloud Archival
 
-{% youtube _NLiIT0puIM %}
-{% youtube LouI4Z48WOg %}
+{% include video id="_NLiIT0puIM" provider="youtube" %}
+{% include video id="LouI4Z48WOg" provider="youtube" %}
 
 
 ### 2012 - 2016
@@ -33,9 +33,9 @@ Over the years, I've filmed student recitals, professional recitals, and streami
 * Commercial DVD Production
 * Tape Digitization (MiniDV, Hi8, VHS)
 
-{% youtube uEVzR4e2hCk %}
-{% youtube Uc4cTu30OVM %}
-{% youtube ROuD-AdzcvQ?list=PL8C-cCqoM2x-wkMu4kDnmWiqXZcQ-mZTW %}
+{% include video id="uEVzR4e2hCk" provider="youtube" %}
+{% include video id="Uc4cTu30OVM" provider="youtube" %}
+{% include video id="ROuD-AdzcvQ?list=PL8C-cCqoM2x-wkMu4kDnmWiqXZcQ-mZTW" provider="youtube" %}
 
 
 ### 2009 - 2011
@@ -48,7 +48,7 @@ UMD, where it all started.
 * Lectures and Seminars (Physics Department)
 * DVD Digitization
 
-{% youtube BikSki_KMlg %}
-{% youtube yUlEsaBRJ8A %}
-{% youtube PvEGICNoTRI %}
-{% vimeo 17413519 %}
+{% include video id="BikSki_KMlg" provider="youtube" %}
+{% include video id="yUlEsaBRJ8A" provider="youtube" %}
+{% include video id="PvEGICNoTRI" provider="youtube" %}
+{% include video id="17413519" provider="vimeo" %}
