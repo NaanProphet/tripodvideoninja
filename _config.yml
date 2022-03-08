@@ -77,6 +77,8 @@ algolia:
   application_id: 3OKHIO3QMO
   index_name:     tripodninja
   search_only_api_key: b262a8e29b271995e7731e5381609ff3
+  # https://community.algolia.com/jekyll-algolia/options.html#nodes-to-index
+  nodes_to_index: 'p,blockquote,li'
 
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#front-matter-defaults
 defaults:

@@ -30,9 +30,12 @@ The following experiment was conducted using the following:
 ### Procedure
 
 1. Import video (as a linked file) into FCP X.
-  ![Sony XAVC-S MOV file imported into FCP X]({% asset fcp-xmp-initial-import.png @path %})
 
+![Sony XAVC-S MOV file imported into FCP X]({% asset fcp-xmp-initial-import.png @path %})
+
+{:start="2"}
 2. Use [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/) and save linked file metadata. Note the System File Date/Time values at the top.
+
 ```
    $ exiftool -api largefilesupport=1 -G1 XAVCS-sample.mov
    ​	[ExifTool]      ExifTool Version Number         : 10.08
@@ -107,13 +110,20 @@ The following experiment was conducted using the following:
    ​	[Composite]     Rotation                        : 0
    ​	$
 ```
+
+{:start="3"}
 3. Launch Premiere Pro. Enable the setting in Preferences to **Write XMP ID to Files in Import** which is now _off by default!!_
-  ![Enable Write XMP ID to Files on Import Setting in Premiere Pro]({% asset fcp-xmp-premiere-settings.png @path %})
 
+![Enable Write XMP ID to Files on Import Setting in Premiere Pro]({% asset fcp-xmp-premiere-settings.png @path %})
+
+{:start="4"}
 4. Import the same clip into Premiere Pro.
-  ![Sony XAVC-S MOV file imported into Premiere Pro]({% asset fcp-xmp-premiere-import.png @path %})
 
+![Sony XAVC-S MOV file imported into Premiere Pro]({% asset fcp-xmp-premiere-import.png @path %})
+
+{:start="5"}
 5. Run [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/) again to confirm the file has been modified. Note how the System File Date/Time values are updated and the new XMP info at the bottom!
+
 ```
    $ exiftool -api largefilesupport=1 -G1 XAVCS-sample.mov
    ​	[ExifTool]      ExifTool Version Number         : 10.08
@@ -206,8 +216,11 @@ The following experiment was conducted using the following:
    ​	[Composite]     Rotation                        : 0
    ​	$
 ```
+
+{:start="6"}
 6. Switch back to FCP X. No red media missing icon! Perhaps FCP X is working off the audio and video track lengths themselves, which did not change (as the ExifTool printouts showed).
-  ![Modified file still linked and scrubs in FCP X]({% asset fcp-xmp-great-success.png @path %})
+
+![Modified file still linked and scrubs in FCP X]({% asset fcp-xmp-great-success.png @path %})
 
 ### A Whole New World
 
