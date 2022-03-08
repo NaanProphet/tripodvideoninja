@@ -11,15 +11,13 @@ categories: metadata
 
 ### Introduction
 
-There is quite a bit of literature[^1] [^2] [^3] [^4] [^5] on the net how Adobe applications can embed XMP metadata and modify original footage on import—wreaking havoc for other NLEs like FCP. Posts range as far back as 2011, the year FCP X was released, to even one in mid 2014.
+There is quite a bit of literature[^1] [^2] [^3] [^4] [^5] on the net how Adobe applications can embed XMP metadata and modify original footage on import—wreaking havoc for other NLEs like FCP. Posts range as far back as 2011, the year FCP X was released, to even one in mid 2014. However, for those that roundtrip between FCP X and Adobe with XMP metadata, turns out things have changed—for the better!
 
 The takeaway of all them, rightly so, was to uncheck the nasty **Write XMP ID to Files in Import** setting in Adobe Premiere, After Effects, etc. which is on by default! [^9]
 
 > The Write XMP ID To Files On Import option tells Premiere Pro to add a single piece of XMP metadata to the source file itself. This is basically a unique identifying number that can then be used by the various applications that understand XMP metadata [namely, the Adobe Suite] to tell which files is being used where. So, yes, it does modify the source file. If you don't want that to happen, then make sure that checkbox is unchecked.
 
 By unchecking this option, the checksums and file sizes of the raw assets do not change, and projects in other NLEs like FCP X will not force re-linking because of an incompatible media file.
-
-However, for those that roundtrip between FCP X and Adobe with XMP metadata, turns out things have changed—for the better!
 
 ### Setup
 
