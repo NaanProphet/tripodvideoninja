@@ -66,8 +66,13 @@ When doing so the following tricks minimize dropped frames:
    <br/>
 3. **Split files often.** Rather than saving a single five-hour file to disk, start/stop the file recording for each song, set, etc. Doing so limits inevitable dropped frames to a smaller percentage of the duration of the video, making audio drift less noticable and increasing the chance for multicam syncing.
 
+### History
 
-### References
+*[Updated Feb. 4, 2017 with additional Wirecast Record to Disk information.]*
+
+*[Updated May 14, 2018 with renamed titles, edits, and updated Wirecast best practices.]*
+
+### Footnotes
 
 [^1]: <http://stretchinternet.com/blog/2013/07/high-definition-three-camera-inputs-one-laptop-3500/>
 
@@ -106,9 +111,3 @@ When doing so the following tricks minimize dropped frames:
 		<br />CPU above 80% can result in problems. External hard drives have very little impact with overall CPU use.
 		Apple ProRes is a professional post production codec. H.264 is generally not best for post workflow. It can take significant CPU resources to encode (and decode in post).
 		</blockquote>
-
-### History
-
-*[Updated Feb. 4, 2017 with additional Wirecast Record to Disk information.]*
-
-*[Updated May 14, 2018 with renamed titles, edits, and updated Wirecast best practices.]*

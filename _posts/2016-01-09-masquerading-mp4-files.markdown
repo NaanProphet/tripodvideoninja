@@ -238,7 +238,11 @@ TAG:handler_name=Non-Real Time Metadata
 [/STREAM]
 ~~~
 
-### Resources
+### History
+
+*[Updated September 28, 2018 wording changes for clarity.]*
+
+### Footnotes
 
 Shout out to Divergent Media for creating such awesome software—and informative articles!
 
@@ -248,8 +252,3 @@ Shout out to Divergent Media for creating such awesome software—and informativ
 [^4]: [How do I fix Handbrake mp4s that produce Error -2041 when loaded in QuickTime?](http://superuser.com/a/130076/542965)
 [^5]: [Quicktime error: invalid sample description](https://forum.handbrake.fr/viewtopic.php?p=15470#p15470)
 [^6]: [M4V](https://en.wikipedia.org/wiki/M4V)
-
-
-### History
-
-*[Updated September 28, 2018 wording changes for clarity.]*

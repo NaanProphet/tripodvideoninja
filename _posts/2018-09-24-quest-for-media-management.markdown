@@ -200,7 +200,11 @@ The UI is implemented in JavaScript and HTML5 and has special modes for previewi
 
 TagSpaces could be a really interesting competitor to Kyno, granted it may take some work to get it setup. It fell off the list, however, since it **currently has no means of exporting its metadata** to FCP X or Premiere. Maybe someone will contribute that feature one day as an extension, though it seems unlikely.
 
-### Resources
+### History
+
+*[This article was originally drafted in January 2016. As you can see, it has been quite a quest...]*
+
+### Footnotes
 
 [^1]: How to Use Libraries in Final Cut Pro X version 10.1 <http://www.izzyvideo.com/final-cut-pro-x-libraries/> 
 [^2]: "For some formats such as QuickTime (.mov) the XMP information is written into the media file. For formats that don't support writing to the media file, like MXF, the XMP is written into a sidecar file. The sidecar file is stored at the same location as the media file." <https://forums.adobe.com/thread/1074392?start=0&tstart=0>
@@ -218,7 +222,3 @@ TagSpaces could be a really interesting competitor to Kyno, granted it may take 
 
 [^14]: "The Write XMP IDs To Files On Import preference only controls whether unique ID values are automatically written to files during import. This preference does not control whether XMP metadata is written to a file under other circumstances, such as when you edit metadata in the Metadata panel." <https://helpx.adobe.com/prelude/using/prelude-set-preferences.html>
 [^15]: Adobe forums [Anyway to default saving prelude metadata outside the video file](https://forums.adobe.com/thread/1837913)
-
-### History
-
-*[This article was originally drafted in January 2016. As you can see, it has been quite a quest...]*

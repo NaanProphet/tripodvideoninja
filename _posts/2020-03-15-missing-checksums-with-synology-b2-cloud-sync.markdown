@@ -68,7 +68,11 @@ How to use the `rclone sync` and `rclone verify` commands are deatiled in [Rclon
 
 If you care about checksums for files over 4 GB, don't use Synology Cloud Sync. Instead roll up your sleeves are get cracking with `rclone` on the Synology.
 
-### Resources
+### History
+
+*[This article was originally drafted in September 2018. At long last...]*
+
+### Footnotes
 
 [^1]: <https://www.backblaze.com/blog/the-3-2-1-backup-strategy/>
 [^2]: <https://bitbucket.org/fusebit/plex-and-google-drive/wiki/Install%20rclone%20on%20Synology%20NAS>
@@ -76,7 +80,3 @@ If you care about checksums for files over 4 GB, don't use Synology Cloud Sync. 
 [^4]: <https://help.backblaze.com/hc/en-us/articles/218020298-Does-B2-require-a-SHA-1-hash-to-be-provided-with-an-upload->
 [^5]: <https://rclone.org/overview/#features>
 [^6]: <https://www.backblaze.com/b2/docs/b2_upload_part.html>
-
-### History
-
-*[This article was originally drafted in September 2018. At long last...]*

@@ -232,7 +232,11 @@ Indescribable feelings.
 
 Hit the road, Jack!
 
-### Resources
+### History
+
+*[Updated September 28, 2018 wording changes for clarity.]*
+
+### Footnotes
 
 [^1]: [2011-08-15 Opening clips in Premiere Pro makes them go offline in FCX](https://forums.creativecow.net/thread/335/13900)
 [^2]: [2012-07-17 Relinking this!](https://forums.creativecow.net/thread/344/13891)
@@ -243,7 +247,3 @@ Hit the road, Jack!
 [^7]: <https://en.wikipedia.org/wiki/Final_Cut_Pro_X#Evolution>
 [^8]: <https://en.wikipedia.org/wiki/Adobe_Premiere_Pro#Release_history>
 [^9]: Understanding "Write XMP ID to Files on Import" <https://forums.adobe.com/thread/682174>
-
-### History
-
-*[Updated September 28, 2018 wording changes for clarity.]*
