@@ -6,8 +6,6 @@ date:   2016-01-09 20:37:41 -0500
 categories: metadata
 ---
 
-* TOC
-{:toc}
 
 ### Introduction
 

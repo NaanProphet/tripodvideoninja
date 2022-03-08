@@ -6,8 +6,6 @@ date:   2019-07-05 17:40:00 Z
 categories: livestream
 ---
 
-* TOC
-{:toc}
 
 ### Realtime Proxy Editing via Wirecast
 

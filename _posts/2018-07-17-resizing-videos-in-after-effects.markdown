@@ -6,8 +6,6 @@ date: 2018-07-17 22:02:32 Z
 categories: repair
 ---
 
-* TOC
-{:toc}
 ### Upconverting 480p Footage
 
 This May, I tried something new and recorded a HD Wirecast livestream to disk as ProRes 422 @ 480p to help save on disk space/throughput.

@@ -5,8 +5,6 @@ subtitle: "Workarounds for saving extended attributes"
 date:   2018-05-25 08:54:33 -0500
 categories: cloud
 ---
-* TOC
-{:toc}
 
 ### Finder Folder Icons vs. Bucket Storage
 

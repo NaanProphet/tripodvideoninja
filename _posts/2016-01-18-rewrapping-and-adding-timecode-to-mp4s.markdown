@@ -6,8 +6,6 @@ date:   2016-01-24 11:37:23 -0500
 categories: codecs
 ---
 
-* TOC
-{:toc}
 
 ### Where Has Timecode Gone?
 

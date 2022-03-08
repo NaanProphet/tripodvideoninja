@@ -5,8 +5,6 @@ date:   2016-01-03 18:15:56 -0500
 categories: codecs
 ---
 
-* TOC
-{:toc}
 
 ### Introduction
 

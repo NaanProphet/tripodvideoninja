@@ -5,8 +5,6 @@ subtitle: Waking up from a progressive scan nightmare
 date:   2017-02-04 17:49:56 -0500
 categories: repair
 ---
-* TOC
-{:toc}
 
 ### The Rub
 

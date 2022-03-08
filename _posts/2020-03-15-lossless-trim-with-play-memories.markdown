@@ -6,8 +6,6 @@ date:   2020-03-15 13:01:00 Z
 categories: post
 ---
 
-* TOC
-{:toc}
 
 ### Why Trim
 

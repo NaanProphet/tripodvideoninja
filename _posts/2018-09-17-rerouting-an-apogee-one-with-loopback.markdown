@@ -6,8 +6,6 @@ date: 2018-09-17 11:39:32 Z
 categories: livestream
 ---
 
-* TOC
-{:toc}
 ### The Scenario
 
 Earlier this year, I was livestreaming a music concert where there was no access to the soundboard's mic output. It was a low-key, unlisted stream for family and friends, but I still wanted a find a way to improve the audio quality rather than using the camera's built-in mic.

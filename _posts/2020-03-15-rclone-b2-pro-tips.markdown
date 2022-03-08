@@ -6,8 +6,6 @@ date:   2020-03-18 23:57:00 Z
 categories: storage
 ---
 
-* TOC
-{:toc}
 
 ### Recap
 

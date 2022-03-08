@@ -6,8 +6,6 @@ date:   2019-06-30 07:54:00 Z
 categories: metadata
 ---
 
-* TOC
-{:toc}
 
 ### Mac Photos Export Fail
 

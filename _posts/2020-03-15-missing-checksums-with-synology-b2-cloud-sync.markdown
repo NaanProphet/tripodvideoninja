@@ -6,8 +6,6 @@ date:   2020-03-15 15:21:00 Z
 categories: storage
 ---
 
-* TOC
-{:toc}
 
 ### The Task
 

@@ -5,8 +5,6 @@ date:   2016-01-24 14:34:38 -0500
 categories: livestream
 ---
 
-* TOC
-{:toc}
 
 ### Introduction
 
