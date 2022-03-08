@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Resizing Video with After Effects and Instant 4K
 subtitle: When 8 GB of RAM Isn't Enough
 date: 2018-07-17 22:02:32 Z

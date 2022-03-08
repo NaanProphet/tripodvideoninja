@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Rclone Cloud Archival Pro Tips
 subtitle: Archival Guide With Backblaze B2
 date:   2020-03-18 23:57:00 Z

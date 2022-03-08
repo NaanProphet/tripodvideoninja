@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  Using RenderGarden to Multithread After Effects Exports
 subtitle: I might have a green thumb after all
 date:   2019-04-10 12:09:52 Z

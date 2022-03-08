@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Using an Apogee ONE for Livestream Audio
 subtitle: Routing virtual audio devices with Loopback and Audio Hijack Pro
 date: 2018-09-17 11:39:32 Z

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "FCP X 10.2.2 Unaffected by XMP Metadata Changes"
 subtitle: "Goodbye fear of broken media links!"
 date:   2016-01-09 20:37:41 -0500

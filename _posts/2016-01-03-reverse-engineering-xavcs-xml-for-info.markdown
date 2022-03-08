@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Reverse Engineering XAVC-S XML Files"
 date:   2016-01-03 18:15:56 -0500
 categories: codecs

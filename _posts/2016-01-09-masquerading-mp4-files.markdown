@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Renaming MP4 to M4V to open with QT7 & Compressor"
 subtitle: "Masquerading MP4 files from Sony's XAVC-S format"
 date:   2016-01-09 09:05:26 -0500

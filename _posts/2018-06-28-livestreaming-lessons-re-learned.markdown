@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Livestream Lessons Learned, Again
 subtitle: Record to Disk Best Practices
 date: 2018-06-28 16:22:00 Z

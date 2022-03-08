@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  Conforming Livestream Video for NLEs
 subtitle: A Beginner's Guide to Preparing Wirecast Footage for Multicam Editing
 date:   2019-07-05 17:40:00 Z

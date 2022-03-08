@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  Lossless Trimming of XAVC-S with PlayMemories
 subtitle: Trustworthy Trimming of Sony Footage
 date:   2020-03-15 13:01:00 Z

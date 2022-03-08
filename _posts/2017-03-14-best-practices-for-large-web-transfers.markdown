@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Best Practices for Large Web Transfers"
 date:   2017-03-14 13:10:20 -0500
 categories: cloud
