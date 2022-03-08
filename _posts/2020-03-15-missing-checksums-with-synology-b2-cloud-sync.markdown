@@ -1,13 +1,11 @@
 ---
-layout: post
+layout: single
 title:  Missing Checksums in NAS Cloud Archives
 subtitle: Caveats Moving TBs from a Synology to B2
 date:   2020-03-15 15:21:00 Z
 categories: storage
 ---
 
-* TOC
-{:toc}
 
 ### The Task
 

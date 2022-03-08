@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: archive
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 ![]({% asset profile.jpg @path %})
@@ -12,4 +12,4 @@ I'm a freelance videographer who started by filming his friends' recitals during
 
 ![]({% asset mini-car.jpg @path %})
 
-This site is created using [Jekyll](http://jekyllrb.com), built and hosted by [Netlify](https://www.netlify.com), and provided via [Hover](https://www.hover.com).
+This site is created using [Jekyll](http://jekyllrb.com), powered by [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/), built and hosted by [Netlify](https://www.netlify.com), and provided via [Hover](https://www.hover.com).

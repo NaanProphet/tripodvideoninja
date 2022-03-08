@@ -1,13 +1,11 @@
 ---
-layout: post
+layout: single
 title:  "How to Add Timecode to MP4 Files"
 subtitle: "Rewrapping MP4s as MOVs to Add Timecode"
 date:   2016-01-24 11:37:23 -0500
 categories: codecs
 ---
 
-* TOC
-{:toc}
 
 ### Where Has Timecode Gone?
 

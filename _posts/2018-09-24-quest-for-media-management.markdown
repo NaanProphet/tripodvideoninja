@@ -1,13 +1,11 @@
 ---
-layout: post
+layout: single
 title:  "The Quest for Media Management"
 subtitle: "KeyFlow Pro, I choose you!"
 date:   2018-09-24 11:31:32 Z
 categories: metadata
 ---
 
-* TOC
-{:toc}
 
 ### The Dream
 

@@ -1,17 +1,15 @@
 ---
-layout: post
+layout: single
 title:  "Renaming MP4 to M4V to open with QT7 & Compressor"
 subtitle: "Masquerading MP4 files from Sony's XAVC-S format"
 date:   2016-01-09 09:05:26 -0500
 categories: codecs
 ---
 
-* TOC
-{:toc}
 
 ### Introduction
 
-For a long time, Sony's XAVC-S codec was completely a mystery to me. It was the new format the Sony CX900 and AX100 use, and when those cameras originally shipped, the files could not be edited natively with FCP X. ([Version 10.2 added that functionality](https://support.apple.com/en-us/HT202252){:target="_blank"}.)
+For a long time, Sony's XAVC-S codec was completely a mystery to me. It was the new format the Sony CX900 and AX100 use, and when those cameras originally shipped, the files could not be edited natively with FCP X. ([Version 10.2 added that functionality](https://support.apple.com/en-us/HT202252).)
 
 What was particularly perplexing was after the software update, QuickTime Player X and FCP X would open the files, but QuickTime Player 7 and Compressor 4.2 wouldn't. QT7 was understandably written on legacy 32-bit frameworks[^1], but shouldn't Compressor 4.2 use the same new 64-bit frameworks (AVFoundation, CoreMediaIO, etc.) that QT X and FCP X used?
 
@@ -57,7 +55,7 @@ For a long time, I placed the emphasis on the **v** of m4**v**—that it's MP4 *
 
 For posterity! Original 50 MB video file from the Sony AX-100 camera available [here]({% b2 XAVCS-4K-29.97fps.MP4.zip %}) for download and experimentation.
 
-Audio credit: _Raga Pahadi - Alaap_ by Ashwin Batish from album [_Morning Meditation Ragas on Sitar_](https://player.spotify.com/album/0hAFpAvn7T1rAXD62ge5Ut){:target="_blank"}.
+Audio credit: _Raga Pahadi - Alaap_ by Ashwin Batish from album [_Morning Meditation Ragas on Sitar_](https://player.spotify.com/album/0hAFpAvn7T1rAXD62ge5Ut).
 
 
 #### XAVC-S Stream Info
@@ -244,11 +242,11 @@ TAG:handler_name=Non-Real Time Metadata
 
 Shout out to Divergent Media for creating such awesome software—and informative articles!
 
-[^1]: [Dealing with Codecs on Modern Macs](http://www.divergentmedia.com/blog/dealing-with-codecs-on-modern-macs/){:target="_blank"}
-[^2]: [Understand XAVC](http://www.divergentmedia.com/blog/understand-xavc/){:target="_blank"}
-[^3]: [MPEG-4 Part 14](https://en.wikipedia.org/wiki/MPEG-4_Part_14#Data_streams){:target="_blank"}
-[^4]: [How do I fix Handbrake mp4s that produce Error -2041 when loaded in QuickTime?](http://superuser.com/a/130076/542965){:target="_blank"}
-[^5]: [Quicktime error: invalid sample description](https://forum.handbrake.fr/viewtopic.php?p=15470#p15470){:target="_blank"}
+[^1]: [Dealing with Codecs on Modern Macs](http://www.divergentmedia.com/blog/dealing-with-codecs-on-modern-macs/)
+[^2]: [Understand XAVC](http://www.divergentmedia.com/blog/understand-xavc/)
+[^3]: [MPEG-4 Part 14](https://en.wikipedia.org/wiki/MPEG-4_Part_14#Data_streams)
+[^4]: [How do I fix Handbrake mp4s that produce Error -2041 when loaded in QuickTime?](http://superuser.com/a/130076/542965)
+[^5]: [Quicktime error: invalid sample description](https://forum.handbrake.fr/viewtopic.php?p=15470#p15470)
 [^6]: [M4V](https://en.wikipedia.org/wiki/M4V)
 
 

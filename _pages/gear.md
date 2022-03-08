@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: single
 title: Gear
-permalink: /gear/
+permalink: /gear
 ---
 
 ### Kits

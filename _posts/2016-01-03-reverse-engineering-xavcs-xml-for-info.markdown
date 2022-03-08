@@ -1,18 +1,16 @@
 ---
-layout: post
+layout: single
 title:  "Reverse Engineering XAVC-S XML Files"
 date:   2016-01-03 18:15:56 -0500
 categories: codecs
 ---
 
-* TOC
-{:toc}
 
 ### Introduction
 
-Many new Sony video cameras (like the [FDR-AX100](http://www.sony.com/electronics/handycam-camcorders/fdr-ax100) and [HDR-CX900](http://www.sony.com/electronics/handycam-camcorders/hdr-cx900)) record into the XAVC-S format. XAVC-S writes to MP4 containers, and alongside them sit nice little XML files with metadata.
+Many new Sony video cameras (like the [FDR-AX100](http://www.sony.com/electronics/handycam-camcorders/fdr-ax100) and [HDR-CX900](http://www.sony.com/electronics/handycam-camcorders/hdr-cx900)) record into the XAVC-S format. XAVC-S writes to MP4 containers, and alongside them sit nice little XML files with metadata. The following is what I've unearthed from poking around the SD card.
 
-The following is what I've unearthed from poking around the SD card. This post mainly serves as a log of observations.
+This post mainly serves as a log of observations.
 
 ### Test Setup
 

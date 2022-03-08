@@ -1,13 +1,11 @@
 ---
-layout: post
+layout: single
 title: Livestream Lessons Learned, Again
 subtitle: Record to Disk Best Practices
 date: 2018-06-28 16:22:00 Z
 categories: livestream
 ---
 
-* TOC
-{:toc}
 
 ### Always Record to an External Hard Drive
 

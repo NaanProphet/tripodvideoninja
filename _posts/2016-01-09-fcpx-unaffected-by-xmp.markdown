@@ -1,25 +1,21 @@
 ---
-layout: post
+layout: single
 title:  "FCP X 10.2.2 Unaffected by XMP Metadata Changes"
 subtitle: "Goodbye fear of broken media links!"
 date:   2016-01-09 20:37:41 -0500
 categories: metadata
 ---
 
-* TOC
-{:toc}
 
 ### Introduction
 
-There is quite a bit of literature[^1] [^2] [^3] [^4] [^5] on the net how Adobe applications can embed XMP metadata and modify original footage on import—wreaking havoc for other NLEs like FCP. Posts range as far back as 2011, the year FCP X was released, to even one in mid 2014.
+There is quite a bit of literature[^1] [^2] [^3] [^4] [^5] on the net how Adobe applications can embed XMP metadata and modify original footage on import—wreaking havoc for other NLEs like FCP. Posts range as far back as 2011, the year FCP X was released, to even one in mid 2014. However, for those that roundtrip between FCP X and Adobe with XMP metadata, turns out things have changed—for the better!
 
 The takeaway of all them, rightly so, was to uncheck the nasty **Write XMP ID to Files in Import** setting in Adobe Premiere, After Effects, etc. which is on by default! [^9]
 
 > The Write XMP ID To Files On Import option tells Premiere Pro to add a single piece of XMP metadata to the source file itself. This is basically a unique identifying number that can then be used by the various applications that understand XMP metadata [namely, the Adobe Suite] to tell which files is being used where. So, yes, it does modify the source file. If you don't want that to happen, then make sure that checkbox is unchecked.
 
 By unchecking this option, the checksums and file sizes of the raw assets do not change, and projects in other NLEs like FCP X will not force re-linking because of an incompatible media file.
-
-However, for those that roundtrip between FCP X and Adobe with XMP metadata, turns out things have changed—for the better!
 
 ### Setup
 
@@ -34,9 +30,12 @@ The following experiment was conducted using the following:
 ### Procedure
 
 1. Import video (as a linked file) into FCP X.
-  ![Sony XAVC-S MOV file imported into FCP X]({% asset fcp-xmp-initial-import.png @path %})
 
+![Sony XAVC-S MOV file imported into FCP X]({% asset fcp-xmp-initial-import.png @path %})
+
+{:start="2"}
 2. Use [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/) and save linked file metadata. Note the System File Date/Time values at the top.
+
 ```
    $ exiftool -api largefilesupport=1 -G1 XAVCS-sample.mov
    ​	[ExifTool]      ExifTool Version Number         : 10.08
@@ -111,13 +110,20 @@ The following experiment was conducted using the following:
    ​	[Composite]     Rotation                        : 0
    ​	$
 ```
+
+{:start="3"}
 3. Launch Premiere Pro. Enable the setting in Preferences to **Write XMP ID to Files in Import** which is now _off by default!!_
-  ![Enable Write XMP ID to Files on Import Setting in Premiere Pro]({% asset fcp-xmp-premiere-settings.png @path %})
 
+![Enable Write XMP ID to Files on Import Setting in Premiere Pro]({% asset fcp-xmp-premiere-settings.png @path %})
+
+{:start="4"}
 4. Import the same clip into Premiere Pro.
-  ![Sony XAVC-S MOV file imported into Premiere Pro]({% asset fcp-xmp-premiere-import.png @path %})
 
+![Sony XAVC-S MOV file imported into Premiere Pro]({% asset fcp-xmp-premiere-import.png @path %})
+
+{:start="5"}
 5. Run [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/) again to confirm the file has been modified. Note how the System File Date/Time values are updated and the new XMP info at the bottom!
+
 ```
    $ exiftool -api largefilesupport=1 -G1 XAVCS-sample.mov
    ​	[ExifTool]      ExifTool Version Number         : 10.08
@@ -210,8 +216,11 @@ The following experiment was conducted using the following:
    ​	[Composite]     Rotation                        : 0
    ​	$
 ```
+
+{:start="6"}
 6. Switch back to FCP X. No red media missing icon! Perhaps FCP X is working off the audio and video track lengths themselves, which did not change (as the ExifTool printouts showed).
-  ![Modified file still linked and scrubs in FCP X]({% asset fcp-xmp-great-success.png @path %})
+
+![Modified file still linked and scrubs in FCP X]({% asset fcp-xmp-great-success.png @path %})
 
 ### A Whole New World
 
@@ -225,14 +234,14 @@ Hit the road, Jack!
 
 ### Resources
 
-[^1]: [2011-08-15 Opening clips in Premiere Pro makes them go offline in FCX](https://forums.creativecow.net/thread/335/13900){:target="_blank"}
-[^2]: [2012-07-17 Relinking this!](https://forums.creativecow.net/thread/344/13891){:target="_blank"}
+[^1]: [2011-08-15 Opening clips in Premiere Pro makes them go offline in FCX](https://forums.creativecow.net/thread/335/13900)
+[^2]: [2012-07-17 Relinking this!](https://forums.creativecow.net/thread/344/13891)
 [^3]: [2012-04-19 https://forums.creativecow.net/thread/344/19594](https://forums.creativecow.net/thread/344/19594)
 [^4]: [2013-06-21 How to Transfer a Project from Final Cut Pro to After Effects](http://wolfcrow.com/blog/how-to-transfer-a-project-from-final-cut-pro-to-after-effects/)
-[^5]: [2014-06-25 FCP X: Relinking Media [u] (see comment by SadMac)](https://larryjordan.com/articles/fcpx-relinking/#comment-24001){:target="_blank"}
-[^6]: <https://en.wikipedia.org/wiki/OS_X_El_Capitan#Releases>{:target="_blank"}
-[^7]: <https://en.wikipedia.org/wiki/Final_Cut_Pro_X#Evolution>{:target="_blank"}
-[^8]: <https://en.wikipedia.org/wiki/Adobe_Premiere_Pro#Release_history>{:target="_blank"}
+[^5]: [2014-06-25 FCP X: Relinking Media [u] (see comment by SadMac)](https://larryjordan.com/articles/fcpx-relinking/#comment-24001)
+[^6]: <https://en.wikipedia.org/wiki/OS_X_El_Capitan#Releases>
+[^7]: <https://en.wikipedia.org/wiki/Final_Cut_Pro_X#Evolution>
+[^8]: <https://en.wikipedia.org/wiki/Adobe_Premiere_Pro#Release_history>
 [^9]: Understanding "Write XMP ID to Files on Import" <https://forums.adobe.com/thread/682174>
 
 ### History

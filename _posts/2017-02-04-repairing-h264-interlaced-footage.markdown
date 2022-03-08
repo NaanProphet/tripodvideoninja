@@ -1,12 +1,10 @@
 ---
-layout: post
+layout: single
 title:  "Repairing H.264 Interlaced Footage"
 subtitle: Waking up from a progressive scan nightmare
 date:   2017-02-04 17:49:56 -0500
 categories: repair
 ---
-* TOC
-{:toc}
 
 ### The Rub
 
@@ -24,7 +22,7 @@ For this event, I wanted to (1) use the FX7 for livestreaming and (2) also recor
 
 In order to avoid those awful MiniDV tapes—whose tape changes I feared also might cause the live feed to that meant recording to disk. It wasn't possible to share the video source with both Wirecast and ScopeBox, so I thought, "Hey, why not try recording straight to disk in Wirecast instead?"
 
-While [this post]({% post_url 2016-01-24-live-streaming-lessons %}){:target="_blank"} details many other general livestreaming lessons learned, there are a few major downsides to relying on Wirecast for raw footage which I now realize. Wirecast doesn't know how to "automatically" record as HDV; instead it manually requires setting the codec format, frame rate, etc. which felt too easy for me to mess up. For example: since HDV is technically a 4:3 1440x1080 image that's then stretched out, I wasn't sure whether I should record to 1920x1080 or 1440x1080.
+While [this post]({% post_url 2016-01-24-live-streaming-lessons %}) details many other general livestreaming lessons learned, there are a few major downsides to relying on Wirecast for raw footage which I now realize. Wirecast doesn't know how to "automatically" record as HDV; instead it manually requires setting the codec format, frame rate, etc. which felt too easy for me to mess up. For example: since HDV is technically a 4:3 1440x1080 image that's then stretched out, I wasn't sure whether I should record to 1920x1080 or 1440x1080.
 
 So rather than deal with all that I said instead, "Let's just save H.264 in Wirecast to disk!" (It was a pretty neat setup actually, using two Wirecast documents open simultaneously, one for the livestream and one just for the camera's archive stream.) Just in case 1080p would create an upscale, I thought going 720p would be better.
 
@@ -33,9 +31,9 @@ Thus the Nightmare Before Recording began.
 ### The Rescue Contenders
 
 Three approaches to "uncomb"[^2] the baked in interlaced footage were tried:
-* [Handbrake](https://handbrake.fr){:target="_blank"} (v 0.10.5 x86_64)
-* [Compressor 4](http://www.apple.com/final-cut-pro/compressor/){:target="_blank"} via forcing the field order to interlaced
-* [PHYX Cleaner plugin](http://www.phyx.biz/phyxcleaner.html){:target="_blank"} as suggested on a Wirecast forum[^3]
+* [Handbrake](https://handbrake.fr) (v 0.10.5 x86_64)
+* [Compressor 4](http://www.apple.com/final-cut-pro/compressor/) via forcing the field order to interlaced
+* [PHYX Cleaner plugin](http://www.phyx.biz/phyxcleaner.html) as suggested on a Wirecast forum[^3]
 
 Of these three, **Compressor was the clear winner**.
 
@@ -231,8 +229,8 @@ Inspired by: <http://www.streaminglearningcenter.com/articles/first-look-apple-c
 
 ### References
 
-[^1]: Tip to use `:tff` in Handbrake <http://stackoverflow.com/questions/9287122/how-do-i-set-the-interlaced-flag-on-an-mkv-file-so-that-vlc-can-automatically-pl>{:target="_blank"}
-[^2]: Examples of combing <https://en.wikipedia.org/wiki/Interlaced_video#Interlacing_problems>{:target="_blank"}
-[^3]: Recorded Interlaced Source as Progressive file - now what? <http://forum.telestream.net/forum/messageview.aspx?catid=45&threadid=23213>{:target="_blank"}
+[^1]: Tip to use `:tff` in Handbrake <http://stackoverflow.com/questions/9287122/how-do-i-set-the-interlaced-flag-on-an-mkv-file-so-that-vlc-can-automatically-pl>
+[^2]: Examples of combing <https://en.wikipedia.org/wiki/Interlaced_video#Interlacing_problems>
+[^3]: Recorded Interlaced Source as Progressive file - now what? <http://forum.telestream.net/forum/messageview.aspx?catid=45&threadid=23213>
 [^4]: <https://larryjordan.com/articles/compressor-x264-improve-video/>
-[^5]: <https://larryjordan.com/articles/it-aint-the-endian-of-the-world/>{:target="_blank"}
+[^5]: <https://larryjordan.com/articles/it-aint-the-endian-of-the-world/>

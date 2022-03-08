@@ -1,0 +1,9 @@
+main:
+  - title: "About"
+    url: /about
+  - title: "Gear"
+    url: /gear
+  - title: "Tweets"
+    url: /tweets
+  - title: "Projects"
+    url: /cv

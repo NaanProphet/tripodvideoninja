@@ -1,13 +1,11 @@
 ---
-layout: post
+layout: single
 title:  Using RenderGarden to Multithread After Effects Exports
 subtitle: I might have a green thumb after all
 date:   2019-04-10 12:09:52 Z
 categories: performance
 ---
 
-* TOC
-{:toc}
 ### Intro
 
 Recently, I found myself deinterlacing footage from two Blu-ray discs using some Red Giant After Effects plugins[^3]. The two compositions were HD 1080 59.94i files[^4], 51 minutes and 94 minutes each. My jaw dropped when I saw the estimated time for just the first file start at 50 hours, and keep increase. Plenty of CPU was still available on the machine...

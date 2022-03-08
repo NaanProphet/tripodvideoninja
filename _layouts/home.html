@@ -1,34 +1,20 @@
 ---
-layout: default
+layout: archive
 ---
 
-<div class="home">
+{{ content }}
 
-  {{ content }}
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
 
-  <h1 class="page-heading">Posts</h1>
-
-  <div id="search-searchbar"></div>
-
-  <div class="post-list" id="search-hits">
-    {% for post in site.posts %}
-      <div class="post-item">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h2>
-
-        <div class="post-snippet">{{ post.excerpt }}</div>
-      </div>
-    {% endfor %}
-  </div>
-
-  {% include algolia.html %}
-
-  <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
-
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
 </div>
+
+{% include paginator.html %}

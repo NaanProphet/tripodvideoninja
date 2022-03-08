@@ -1,13 +1,11 @@
 ---
-layout: post
+layout: single
 title:  Adjusting Date and Time on Mac Photos Exports
 subtitle: I change you. Why you no persist?
 date:   2019-06-30 07:54:00 Z
 categories: metadata
 ---
 
-* TOC
-{:toc}
 
 ### Mac Photos Export Fail
 

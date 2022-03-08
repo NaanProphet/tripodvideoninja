@@ -1,38 +1,126 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title: TripodNinja 🎥 Krishna Bhamidipati
 email: email@krishna.video
-description: 'Freelance videographer and sound engineer with a love for tech and classical music.'
-baseurl: ''
-url: https://krishna.video
+description: >- # this means to ignore newlines until "baseurl:"
+  Freelance videographer and sound engineer with a love for tech and classical music.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://krishna.video" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tripodninja
-github_username: NaanProphet
+github_username:  NaanProphet
 
 # Build settings
 markdown: kramdown
-theme: minima
-google_analytics: UA-121779698-1
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - Dockerfile
-  - docker-compose.yml
-  - algolia-dev.sh
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
 
-# Plugin settings
-reading_time:
-  second_plural: "sec"
-  minute_singular: "min"
-  minute_plural: "min"
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
+# https://mmistakes.github.io/minimal-mistakes/docs/pages/
+include:
+  - _pages
+
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#reading-time
+words_per_minute: 125
+
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-121779698-1"
+    anonymize_ip: false # default
+
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-search
+search: true
+search_full_content: true
+search_provider: algolia
 algolia:
   application_id: 3OKHIO3QMO
   index_name:     tripodninja
   search_only_api_key: b262a8e29b271995e7731e5381609ff3
+  # https://community.algolia.com/jekyll-algolia/options.html#nodes-to-index
+  nodes_to_index: 'p,blockquote,li'
+
+# https://mmistakes.github.io/minimal-mistakes/docs/javascript/#customizing
+after_footer_scripts:
+  - /assets/js/new-window-fix.js
+
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#front-matter-defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      classes: wide_post
+      author_profile: false
+      read_time: true
+      comments: false
+      share: true
+      related: false  
+      toc: true
+      toc_label: "Table of Contents"
+      toc_sticky: true
+      show_date: true
+  # _foo
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide_post
+      toc: true
+      toc_label: "Table of Contents"
+      toc_sticky: true
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/tripodninja"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/NaanProphet"
+    - label: "Email"
+      icon: "fas fa-fw fa-paper-plane"
+      url: "mailto:email@krishna.video"

@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: archive
 title: Tweets
-permalink: /tweets/
+permalink: /tweets
 ---
 
 When time is short, my Twitter feed serves as a digital notepad. Lucky for others, that means each idea is capped at 260 characters!
