@@ -234,14 +234,14 @@ Hit the road, Jack!
 
 ### Resources
 
-[^1]: [2011-08-15 Opening clips in Premiere Pro makes them go offline in FCX](https://forums.creativecow.net/thread/335/13900){:target="_blank"}
-[^2]: [2012-07-17 Relinking this!](https://forums.creativecow.net/thread/344/13891){:target="_blank"}
+[^1]: [2011-08-15 Opening clips in Premiere Pro makes them go offline in FCX](https://forums.creativecow.net/thread/335/13900)
+[^2]: [2012-07-17 Relinking this!](https://forums.creativecow.net/thread/344/13891)
 [^3]: [2012-04-19 https://forums.creativecow.net/thread/344/19594](https://forums.creativecow.net/thread/344/19594)
 [^4]: [2013-06-21 How to Transfer a Project from Final Cut Pro to After Effects](http://wolfcrow.com/blog/how-to-transfer-a-project-from-final-cut-pro-to-after-effects/)
-[^5]: [2014-06-25 FCP X: Relinking Media [u] (see comment by SadMac)](https://larryjordan.com/articles/fcpx-relinking/#comment-24001){:target="_blank"}
-[^6]: <https://en.wikipedia.org/wiki/OS_X_El_Capitan#Releases>{:target="_blank"}
-[^7]: <https://en.wikipedia.org/wiki/Final_Cut_Pro_X#Evolution>{:target="_blank"}
-[^8]: <https://en.wikipedia.org/wiki/Adobe_Premiere_Pro#Release_history>{:target="_blank"}
+[^5]: [2014-06-25 FCP X: Relinking Media [u] (see comment by SadMac)](https://larryjordan.com/articles/fcpx-relinking/#comment-24001)
+[^6]: <https://en.wikipedia.org/wiki/OS_X_El_Capitan#Releases>
+[^7]: <https://en.wikipedia.org/wiki/Final_Cut_Pro_X#Evolution>
+[^8]: <https://en.wikipedia.org/wiki/Adobe_Premiere_Pro#Release_history>
 [^9]: Understanding "Write XMP ID to Files on Import" <https://forums.adobe.com/thread/682174>
 
 ### History

@@ -13,13 +13,13 @@ Last May, for Chhandayan's All-Night Concert 2015 in NYC, I cut between two came
 Here's what I'd do differently next time.
 
 ### Transfer SD Card Footage with a Separate Laptop
-Red Giant's neat software [Offload](http://www.redgiant.com/products/offload/){:target="_blank"} made it really simple to transfer footage from the Sony AX100 cam. Since it also compares checksums of these giant video files, I suspect it spiked the CPU and caused some dropped frames—especially since Wirecast was writing to the same disk!
+Red Giant's neat software [Offload](http://www.redgiant.com/products/offload/) made it really simple to transfer footage from the Sony AX100 cam. Since it also compares checksums of these giant video files, I suspect it spiked the CPU and caused some dropped frames—especially since Wirecast was writing to the same disk!
 
 Best to use another machine like a MacBook Air to dump SD footage. Any machine with a fast, built-in or USB 3.0 SD card reader really.
 
 ### Always Ingest HDV Cams as Uncompressed HDMI Outputs
 
-If the streaming laptop had another Thunderbolt port, this would have been a no-brainer a long time ago: rock two [Blackmagic Mini Recorder](https://www.blackmagicdesign.com/products/ultrastudiothunderbolt/techspecs/W-DLUS-04){:target="_blank"}s via Thunderbolt and call it a day. However my [2012 MacBook Pro 9,1](http://www.everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-2.6-15-mid-2012-unibody-usb3-specs.html){:target="_blank"} has only one port, and the Mini Recorder is an endpoint with no daisy chaining (why o why).
+If the streaming laptop had another Thunderbolt port, this would have been a no-brainer a long time ago: rock two [Blackmagic Mini Recorder](https://www.blackmagicdesign.com/products/ultrastudiothunderbolt/techspecs/W-DLUS-04)s via Thunderbolt and call it a day. However my [2012 MacBook Pro 9,1](http://www.everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i7-2.6-15-mid-2012-unibody-usb3-specs.html) has only one port, and the Mini Recorder is an endpoint with no daisy chaining (why o why).
 
 When the livestream source is HDV over FireWire, the camera actually compresses the video before it sends it over [^2] [^4] [^5]; DV video on the other hand, is at a low enough bitrate to be uncompressed. So compressed HDV has to be _decompressed_ by the receiving side, i.e. Wirecast, which takes a few milliseconds. This makes the HDV FireWire feed lag slightly behind the other HDMI camera and creates an audio-video sync problem—especially when cutting/mixing with another camera live.
 
@@ -29,16 +29,16 @@ Here is an example of the AV sync issue. The stationary center cam is HDV via Fi
 
 {% include video id="150565246" provider="vimeo" %}
 
-"Is it possible to delay the video of one source so that it's in sync with the other?" ~~Although Wirecast allows for an audio delay offset, there's no "source offset" option. One way might be to pipe the video through VLC to timeshift it with the play/pause button[^6], but that's not precise enough here to say the least for starters.~~ [Update] As of [Wirecast 7.0](https://telestreamforum.forumbee.com/t/h48sty/wirecast-7-0-released-june-29-2016){:target="_blank"}, sources now have a separate video delay feature. It would probably take some tuning though to get it right, and still might not be worth it since the decompression would still result in higher CPU usage.
+"Is it possible to delay the video of one source so that it's in sync with the other?" ~~Although Wirecast allows for an audio delay offset, there's no "source offset" option. One way might be to pipe the video through VLC to timeshift it with the play/pause button[^6], but that's not precise enough here to say the least for starters.~~ [Update] As of [Wirecast 7.0](https://telestreamforum.forumbee.com/t/h48sty/wirecast-7-0-released-june-29-2016), sources now have a separate video delay feature. It would probably take some tuning though to get it right, and still might not be worth it since the decompression would still result in higher CPU usage.
 
-The solution? Thankfully now[^8], unlike when it was first released in 2011[^7], the [Blackmagic Intensity Shuttle USB 3.0](https://www.blackmagicdesign.com/products/intensity){:target="_blank"} is compatible with Macs! Both are recognized by Wirecast which means one camera can use it via HDMI as a streaming input using Desktop Video 10.5.4 (released January 5, 2016). It's also the goto workflow at Harvard University Athletics (in fact, they use two Mini Recorders and one Intensity Shuttle USB on a MBP with success)![^1]
+The solution? Thankfully now[^8], unlike when it was first released in 2011[^7], the [Blackmagic Intensity Shuttle USB 3.0](https://www.blackmagicdesign.com/products/intensity) is compatible with Macs! Both are recognized by Wirecast which means one camera can use it via HDMI as a streaming input using Desktop Video 10.5.4 (released January 5, 2016). It's also the goto workflow at Harvard University Athletics (in fact, they use two Mini Recorders and one Intensity Shuttle USB on a MBP with success)![^1]
 
 
 ### Wirecast's *Record To Disk* ≠ Edit Grade Footage
 
 1. **Wirecast drops frames and even adjusts the _frame rate_ on the fly[^9] to serve live content.** In live video, performance takes priority over data integrity. Dropping a few frames here or there won't make a visible difference to the end user. Wirecast does exactly this, typically around 80% CPU usage[^10] [^11]. However for frame-precise editing and multitrack syncing of any kind, every frame is vital. So using *Record to Disk* is not the right tool for raw footage at all.
 2. **Wirecast won't save timecode.** Kinda makes sense, given the dropped frames. This makes it impossible to detect drops via any kind of timecode-break detection program. Thus the saved stream is super tedious to chop and fix if it is to be synced with another track.
-3. **There's no way to save HDV footage *as* HDV footage in Wirecast.** It's no [ScopeBox](http://www.divergentmedia.com/scopebox){:target="_blank"}. As far as I can tell, the incoming stream would have to be *recompressed* on the fly to some other format like H.264, which causes more CPU cycles.
+3. **There's no way to save HDV footage *as* HDV footage in Wirecast.** It's no [ScopeBox](http://www.divergentmedia.com/scopebox). As far as I can tell, the incoming stream would have to be *recompressed* on the fly to some other format like H.264, which causes more CPU cycles.
 
 Better would be to either:
 
@@ -46,11 +46,11 @@ Better would be to either:
 * **Save to disk via FireWire and leave the HDMI for streaming.** ScopeBox has been my tried and tested approach for > 5 years, and it preserves timecode. (*Maybe* the streaming laptop could even handle it if it saved to a separate disk...saving an m2t stream doesn't take much CPU.)
 * **Save to disk via Wirecast using uncompressed formats like ProRes.** The way this works is by opening a separate, simultaneous project that only has the input from the HDV camera's HDMI output. The file size is kind of overkill, but this approach could definitely work if another laptop is not available. However the inherent risk of dropped frames is still lingering, and timecode is is still not saved.
 
-Note: recording to SSD via [Blackmagic HyperDeck Shuttle](https://www.blackmagicdesign.com/products/hyperdeckshuttle){:target="_blank"} won't work, because we need the uncompressed HDMI output for the livestream and the camera has only 1 HDMI output.
+Note: recording to SSD via [Blackmagic HyperDeck Shuttle](https://www.blackmagicdesign.com/products/hyperdeckshuttle) won't work, because we need the uncompressed HDMI output for the livestream and the camera has only 1 HDMI output.
 
 ### Best Practices for *Record To Disk*
 
-Saving the livestream feed to disk is still helpful. Such footage is *not* a substitute for actual footage from the camera but can be used for quick YouTube posts or as a rough outline for post-production work. (For example, cuts can be detected automatically using programs like [Edit Detector](https://www.digitalrebellion.com/promedia/){:target="_blank"} and applied to post-production timelines, saving hours of multicam editing work.)
+Saving the livestream feed to disk is still helpful. Such footage is *not* a substitute for actual footage from the camera but can be used for quick YouTube posts or as a rough outline for post-production work. (For example, cuts can be detected automatically using programs like [Edit Detector](https://www.digitalrebellion.com/promedia/) and applied to post-production timelines, saving hours of multicam editing work.)
 
 When doing so the following tricks minimize dropped frames:
 
@@ -97,9 +97,9 @@ When doing so the following tricks minimize dropped frames:
 [^7]: Intensity Shuttle USB 3.0 unsupported on Macs initially <http://forum.blackmagicdesign.com/viewtopic.php?f=3&t=3518>
 [^8]: Looks like public beta for the Blackmagic Intensity Shuttle USB 3.0 support started with [Desktop Video 9.7.3 on June 16, 2013](https://www.blackmagicdesign.com/support/readme/201836592e384a54a140e0bbfad03a63) but was [still in beta through May 28, 2014](http://forum.blackmagicdesign.com/viewtopic.php?f=11&t=22926) at least.
 [^9]: Wirecast recommends always keeping the CPU under 80% <http://forum.telestream.net/forum/messageview.aspx?catid=45&threadid=18511>
-[^10]: Wirecast frame rate loss suggested around 85-90% CPU <http://forum.telestream.net/forum/messageview.aspx?catid=45&threadid=19731>{:target="_blank"}
-[^11]: This Wirecast post suggests frame rate loss one says 80% CPU <http://forum.telestream.net/forum/messageview.aspx?catid=45&threadid=17012>{:target="_blank"}
-[^12]: Another 80% CPU, also external HD very little impact on disk <http://forum.telestream.net/forum/messageview.aspx?catid=45&threadid=16048>{:target="_blank"}
+[^10]: Wirecast frame rate loss suggested around 85-90% CPU <http://forum.telestream.net/forum/messageview.aspx?catid=45&threadid=19731>
+[^11]: This Wirecast post suggests frame rate loss one says 80% CPU <http://forum.telestream.net/forum/messageview.aspx?catid=45&threadid=17012>
+[^12]: Another 80% CPU, also external HD very little impact on disk <http://forum.telestream.net/forum/messageview.aspx?catid=45&threadid=16048>
 		<blockquote>
 		Basically streaming and recording are using the same encoder rather than two encoders in that case.
 		<br />...

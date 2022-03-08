@@ -16,7 +16,7 @@ The only trouble was, since the Apogee ONE appears as a stereo input, the omni m
 
 ### Loopback and Audio Hijack Pro
 
-Using a combination of Rogue Amoeba's [Loopback](https://rogueamoeba.com/loopback/){:target="_blank"} and [Audio Hijack Pro](https://rogueamoeba.com/audiohijack/){:target="_blank"} the Apogee ONE's omni mic can be re-routed to a new virtual audio device for Wirecast.
+Using a combination of Rogue Amoeba's [Loopback](https://rogueamoeba.com/loopback/) and [Audio Hijack Pro](https://rogueamoeba.com/audiohijack/) the Apogee ONE's omni mic can be re-routed to a new virtual audio device for Wirecast.
 
 1. First, create a new virtual audio interface in Loopback.
    ![]({% asset loopback-apogee-1.png @path %})
@@ -30,7 +30,7 @@ Using a combination of Rogue Amoeba's [Loopback](https://rogueamoeba.com/loopbac
 
 ### What About Soundflower?
 
-Loopback and Audio Hijack Pro cost $130 bundled, so the first question might be to try [Soundflower](https://github.com/mattingalls/Soundflower){:target="_blank"} instead since it's free. Soundflower is powerful and has been around for a long time [^1] and it's definitely worth a try.
+Loopback and Audio Hijack Pro cost $130 bundled, so the first question might be to try [Soundflower](https://github.com/mattingalls/Soundflower) instead since it's free. Soundflower is powerful and has been around for a long time [^1] and it's definitely worth a try.
 
 Personally, I have found Soundflower's interface less-intuitive than Audio Hijack's. I was in a pinch to setup the livestream—a live show that was behind schedule—and was so grateful for the UX of Loopback and Audio Hijack to just work, and work perfectly. Worth every dollar.
 

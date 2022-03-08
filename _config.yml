@@ -80,6 +80,10 @@ algolia:
   # https://community.algolia.com/jekyll-algolia/options.html#nodes-to-index
   nodes_to_index: 'p,blockquote,li'
 
+# https://mmistakes.github.io/minimal-mistakes/docs/javascript/#customizing
+after_footer_scripts:
+  - /assets/js/new-window-fix.js
+
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#front-matter-defaults
 defaults:
   # _posts

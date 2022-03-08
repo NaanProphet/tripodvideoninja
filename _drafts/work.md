@@ -74,7 +74,7 @@ Fall 2011. Digitized 29 videos from a two DVD set of *Demonstrations in Acoustic
 
 #### Joint Quantum Institute
 
-Summer 2010. Here, I helped edit for the news and outreach wing under Mr. Curt Suplee. He formerly worked with the Washington Post so our work was interview-based. It was my first introduction to Adobe Premiere, since his custom rig was based on Windows. It was also the first time I saw a 1080i HDV camera, the [Sony HDR-FX7 HDV](https://www.bhphotovideo.com/c/product/459129-REG/Sony_HDRFX7_HDR_FX7_3CMOS_HDV_1080i.html){:target="_blank"}, which I later bought used.
+Summer 2010. Here, I helped edit for the news and outreach wing under Mr. Curt Suplee. He formerly worked with the Washington Post so our work was interview-based. It was my first introduction to Adobe Premiere, since his custom rig was based on Windows. It was also the first time I saw a 1080i HDV camera, the [Sony HDR-FX7 HDV](https://www.bhphotovideo.com/c/product/459129-REG/Sony_HDRFX7_HDR_FX7_3CMOS_HDV_1080i.html), which I later bought used.
 
 As a media person, I also begain basic audio recording/editing for a podcast called *The Quantum Wire*.
 
@@ -95,7 +95,7 @@ Through these talks, I learned:
 {% include video id="9420749" provider="vimeo" %}
 *January 26, 2010. Econophysics talk by statistical mechanics professor, Victor Yakovenko.*
 
-This two-camera rig consists of one [Sony HDR-FX7 HDV](https://www.bhphotovideo.com/c/product/459129-REG/Sony_HDRFX7_HDR_FX7_3CMOS_HDV_1080i.html){:target="_blank"} camera actively keeping the speaker in the lower right corner of the shot, while another static camera (the older Canon XL2) films the projector screen itself.
+This two-camera rig consists of one [Sony HDR-FX7 HDV](https://www.bhphotovideo.com/c/product/459129-REG/Sony_HDRFX7_HDR_FX7_3CMOS_HDV_1080i.html) camera actively keeping the speaker in the lower right corner of the shot, while another static camera (the older Canon XL2) films the projector screen itself.
 
 In post, the second camera is cropped and overlayed picture-in-picture with a little transparency. This way, the green laser pointer is captured and preserved in realtime, infinitely increasing the value for the viewer! Audio is captured from the back mixer and synced afterwards, and the title slide was edited by myself.
 
@@ -108,4 +108,4 @@ This was the first time I nuanced the editing process further by overlaying orig
 
 #### Physics Question of the Week
 
-Summer 2009. This is where I first learned to use a real video camera, a [Canon XL2](https://www.bhphotovideo.com/c/product/339002-REG/Canon_9549A001_XL2_MiniDV_Camcorder.html){:target="_blank"} with DV output. I took pictures and filmed experiments for the *Physics Question of the Week* with Dr. Richard Berg, from question [#348](https://lecdem.physics.umd.edu/images/ArchivedWebsite/outreach/QOTW/arch18/q348.htm){:target="_blank"} to [#366](https://lecdem.physics.umd.edu/images/ArchivedWebsite/outreach/QOTW/active/q366.htm){:target="_blank"}. (Dr. Berg was getting ready to retire, so some of the latter puzzles were also contributed by myself.)
+Summer 2009. This is where I first learned to use a real video camera, a [Canon XL2](https://www.bhphotovideo.com/c/product/339002-REG/Canon_9549A001_XL2_MiniDV_Camcorder.html) with DV output. I took pictures and filmed experiments for the *Physics Question of the Week* with Dr. Richard Berg, from question [#348](https://lecdem.physics.umd.edu/images/ArchivedWebsite/outreach/QOTW/arch18/q348.htm) to [#366](https://lecdem.physics.umd.edu/images/ArchivedWebsite/outreach/QOTW/active/q366.htm). (Dr. Berg was getting ready to retire, so some of the latter puzzles were also contributed by myself.)

@@ -14,7 +14,7 @@ What this means is one day, when I decide to restore a project, all the Finder f
 
 What about if we wrote our own script to do that instead?
 
-**Check it out on [GitHub](https://github.com/NaanProphet/finder-folder-icons)**{:target="_blank"}**!**
+**Check it out on [GitHub](https://github.com/NaanProphet/finder-folder-icons)****!**
 
 ### Let's Go, Automator
 
@@ -63,10 +63,10 @@ However, after numerous attempts, Hazel seems a bit buggy for this particular ef
 
 Several support pages on Hazel's forum also indicate bugs:
 
-* [Rules frequency](https://www.noodlesoft.com/forums/viewtopic.php?f=4&t=5578#p17183){:target="_blank"}
-* [Add file to iTunes when added to folder](https://www.noodlesoft.com/forums/viewtopic.php?f=4&t=6767){:target="_blank"}
-* [Hazel Rules Not working](https://www.noodlesoft.com/forums/viewtopic.php?f=4&t=1618#p6643){:target="_blank"}
+* [Rules frequency](https://www.noodlesoft.com/forums/viewtopic.php?f=4&t=5578#p17183)
+* [Add file to iTunes when added to folder](https://www.noodlesoft.com/forums/viewtopic.php?f=4&t=6767)
+* [Hazel Rules Not working](https://www.noodlesoft.com/forums/viewtopic.php?f=4&t=1618#p6643)
 
-Note: by default, the output of the shell scripts is not written to the Hazel log. To do so [run Hazel in Debug Mode](https://www.noodlesoft.com/forums/viewtopic.php?f=4&t=296){:target="_blank"}.
+Note: by default, the output of the shell scripts is not written to the Hazel log. To do so [run Hazel in Debug Mode](https://www.noodlesoft.com/forums/viewtopic.php?f=4&t=296).
 
 So although Hazel could do the job, it doesn't seem stable enough.
