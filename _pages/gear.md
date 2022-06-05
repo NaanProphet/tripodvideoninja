@@ -50,12 +50,14 @@ permalink: /gear
   * 15' Firewire cable to record to disk rather than MiniDV tapes
   * Still used for livestreaming and/or a zoomed out B cam shot, because the quality loss is less noticeable
   * Reds are a little dark
+  * 3.6 lbs
 * [Sony FDR-AX100 4K camera](http://www.sony.com/electronics/handycam-camcorders/fdr-ax100)
   * Large 1" sensor, fantastic quality color with great low light tolerance
   * 12x optical zoom, 18x "Clear Image Zoom" at 4K (but cannot do face detection then)
   * Unable to pipe 4K via HDMI _while_ recording to SD card, so have to switch to HD when doing live stream + recording. Bandwidth issues I assume.
   * In 4K mode the camera doesn't zoom in as far as in 1080 HD mode—it's using the same sensor.
   * No built-in histogram viewer (feed HDMI to your own scopes, see below)
+  * 1.7 lbs
 * [~~JuicedLink CX231~~](https://www.bhphotovideo.com/c/product/563070-REG/juicedLink_CX231_CX231_Audio_Mixer_and.html)
   * To feed mic/line level XLR inputs into the camera directly as a 3.5" mic stereo input
   * JuicedLink has since gone out of business, [possible reasons](https://www.reddit.com/r/videography/comments/6xugk8/juicedlink_is_gone/)
@@ -74,9 +76,10 @@ permalink: /gear
   * This newer model is slightly longer/taller than the 190XPROB and doesn't fit inside a carry-on
 * [Manfrotto 701HDV Pro Mini Fluid Head](https://www.bhphotovideo.com/bnh/controller/home?O=productlist.jsp&A=details&Q=&sku=556159&is=REG&fromDisList=y)
   * Smaller, lighter fluid head
-  * 8.8 lbs capacity
+  * 8.8 lbs capacity, fixed counter-balance spring @ 3.3 lbs
 * [Manfrotto MVH502AH Pro Fluid Head](https://www.bhphotovideo.com/c/product/827210-REG/Manfrotto_MVH502AH_75Mm_Flat_Head.html)
-  * Heavier fluid head, 15.4 lbs capacity
+  * Heavier fluid head
+  * 15.4 lbs capacity, fixed counter-balance spring @ 8.8 lbs
   * Large plate that prevents camera from tipping when various shoes are attached
 * (2) Manfrotto 519LV Telescoping Pan Handle
 * (1) Manfrotto 502HLV Pan Bar
