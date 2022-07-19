@@ -11,7 +11,7 @@ I learned some painful lessons about hiring a videographer last year—for our w
 
 A friend who's getting married this year asked me about it. Here's what I shared.
 
-![]({% asset pug.png @path %})
+![]({% asset pug.jpg @path %})
 
 ### Communication
 
