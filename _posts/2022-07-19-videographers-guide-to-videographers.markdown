@@ -7,7 +7,7 @@ categories:
 ---
 
 
-I learned some painful lessons about hiring a videographer last year—for our wedding. (The wedding itself was beautiful and precious.)
+I learned some painful lessons about hiring a videographer last year for our wedding.
 
 A friend who's getting married this year asked me about it. Here's what I shared.
 
@@ -37,7 +37,7 @@ The editing sucked. It was perfunctory.
 - Cuts between cameras that jump forward/backward time
 - Out of focus subjects
 - Boomy audio not synced with the mixer
-- A curious, pervasive fuzzy quality in the edited videos [see more on that below]
+- A curious, pervasive fuzzy quality in the edited videos (more on that [below](#timespan-of-project-files))
 
 I sincerely do not believe the folks who edited the videos would have watched them if it were their own event. They obviously thought otherwise. 
 
@@ -85,7 +85,7 @@ I also asked for the project files as part of the contract. We signed on it. The
 
 What?
 
-You mean to say you delete the project even before the client has received and approved the work? That's dumbfounding. Then they patronized me saying, 
+You mean to say you delete the project even before the client has received and approved the work? That's dumbfounding. Then they patronized me saying,
 
 > "I am sure you can easily load edited videos in Premiere Pro and replace any shots you want with raw files he provided."
 
@@ -101,10 +101,18 @@ What do you do though if you've trusted someone with your contract and they don'
 
 > "You definitely held us at the highest standards, and I am extremely sorry that I couldn't meet the expectations."
 
-Again, shifting the responsibility and making it about "me" and "my standards." I think the *lowest* standard was they film and capture all the raw footage, because you signed on it.
+Again, shifting the responsibility and making it about "me" and "my standards." I think the *lowest* standard was they film and capture all the raw footage. They did not.
 
-I always considered myself a passionate amateur until this point, but now I realize how wide the spread in "professional" really is.
+**I always considered myself a passionate amateur until this point, but now I realize how wide the spread in "professional" really is.** 
 
-Another friend told me the other day that she never even got her edited wedding videos, just the raw footage. It seems the norm for a lot of these wedding professionals is to be paid in full on the day of the event, leaving no accountability. It might be tricky, but respectfully negotiating different payment terms is something we should have done.
+Another friend told me the other day that she never even got her edited wedding videos, just the raw footage. **It seems the norm for a lot of wedding professionals is to be paid in full on the day of the event, leaving no accountability. It might have been tricky, but respectfully negotiating different payment terms is something we should have done.**
 
 Mistake 5.
+
+### Moving Forward
+
+I hope these reflections are useful to anyone who may be looking to hire a videographer on their own. I wish I had known better what to look out for and what questions to ask. I'm sure I won't make the same mistakes again.
+
+It really hurts to be minimized and taken advantage of. It leaves impressions that remain etched for a long time. One of the most insightful commentaries of this is [Dave Chappelle: Unforgiven | Exposing Comedy Central](https://youtu.be/EJJ-Pu8WsZU?t=140) at 2:20 where he describes how a grown adult stole a joke from 15 year-old Dave Chappelle. I know it will be a continous practice to internalize and overcome this. I know it will make me a better person.
+
+For now, I have what footage I have. I will be be creative, happy, and make the best of it. Our wedding was magical, and I will make something magical to share to with those I love.
