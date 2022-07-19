@@ -2,7 +2,7 @@
 layout: single
 title: A Videographer's Guide to Hiring a Videographer
 subtitle: Hard-earned Wedding Mistakes
-date:   2022-07-189 10:56:00 Z
+date:   2022-07-19 10:56:00 Z
 categories: 
 ---
 
@@ -69,13 +69,19 @@ At one point they argued that it takes up a lot of space to keep the cameras rol
 
 **If you request multicam, ask if they will keep the cameras rolling the whole time. If they downplay or minimize the ask, it might be because it cuts into their margin because they need to hire more people.**
 
+Mistake 3.
+
+### Timespan of Project Files
+
 I also asked for the project files as part of the contract. We signed on it. Then afterwards they say, "Sorry, the software we use creates really big project files. So we delete the project after every export to make edits faster and save space." What?
 
 You mean to say you delete the project even before the client has received and approved the work? That's dumbfounding. Then they patronized me saying, "I am sure you can easily load edited videos in Premiere Pro and replace any shots you want with raw files he provided."
 
-THAT gave me insight into their editing process: if you ask for a change, they re-ingest the H264 export (which is already compressed), chop it up and do whatever, and EXPORT it again. My father-in-law is not a video person, but he too picked up that somehow the edited videos were not as crisp as the raw footage.
+What?
 
-Mistake 3.
+THAT gave me insight into their editing process: if you ask for a change, they re-ingest the H264 export (which is already compressed), chop it up and do whatever, and then EXPORT it again. My father-in-law is not a video person, but he too picked up that somehow the edited videos were not as crisp as the raw footage.
+
+Mistake 4.
 
 ### Contract Breaks
 
@@ -83,6 +89,10 @@ What do you do though if you've trusted someone with your contract and they don'
 
 "You definitely held us at the highest standards, and I am extremely sorry that I couldn't meet the expectations."
 
-Really? The problem is my expectations? I think the standard is following the contract, because you are paid for it.
+Really? I think the lowest standard is following the contract, because you signed on it.
 
 I always considered myself a passionate amateur until this point, but now I realize how wide the spread in "professional" really is.
+
+Another friend told me the other day that she never even got her edited wedding videos, just the raw footage. It seems like the norm for a lot of these "professionals" is to be paid in full on the day of the event, leaving no accountability. It might be tricky, but respectfully negotiating different payment terms is something we should have done.
+
+Mistake 5.
