@@ -39,9 +39,15 @@ The editing sucked. It was perfunctory.
 - Boomy audio not synced with the mixer
 - A curious, pervasive fuzzy quality in the edited videos [see more on that below]
 
-I sincerely do not believe the folks who edited the videos would have watched them if it were their own event. They obviously thought otherwise, "Can all these be better? Yes, absolutely. But is it horrible and not even worth watching? I disagree with that."
+I sincerely do not believe the folks who edited the videos would have watched them if it were their own event. They obviously thought otherwise. 
 
-What I realized is that editing is inherently subjective and thus difficult to shape. "We've done hundreds of weddings, and we have not once received remarks like this. We understand everyone has different expectations," yada yada yada. They invalidate you and make you feel like **you're** the one with the problem.
+> "Can all these be better? Yes, absolutely. But is it horrible and not even worth watching? I disagree with that."
+
+What I realized is that editing is inherently subjective and thus difficult to shape.
+
+> "We've done hundreds of weddings, and we have not once received remarks like this. We understand everyone has different expectations," yada yada yada. 
+
+They invalidate you and make you feel like **you're** the one with the problem.
 
 Krishna, surely you saw some of their work before hiring them. Didn't you know what you were getting into?
 
@@ -73,11 +79,15 @@ Mistake 3.
 
 ### Timespan of Project Files
 
-I also asked for the project files as part of the contract. We signed on it. Then afterwards they say, "Sorry, the software we use creates really big project files. So we delete the project after every export to make edits faster and save space."
+I also asked for the project files as part of the contract. We signed on it. Then afterwards they say, 
+
+> "Sorry, the software we use creates really big project files. So we delete the project after every export to make edits faster and save space."
 
 What?
 
-You mean to say you delete the project even before the client has received and approved the work? That's dumbfounding. Then they patronized me saying, "I am sure you can easily load edited videos in Premiere Pro and replace any shots you want with raw files he provided."
+You mean to say you delete the project even before the client has received and approved the work? That's dumbfounding. Then they patronized me saying, 
+
+> "I am sure you can easily load edited videos in Premiere Pro and replace any shots you want with raw files he provided."
 
 What??
 
@@ -89,7 +99,7 @@ Mistake 4.
 
 What do you do though if you've trusted someone with your contract and they don't fulfill it? It's extremely disappointing to have asked for something, paid for it, and have it ignored.
 
-"You definitely held us at the highest standards, and I am extremely sorry that I couldn't meet the expectations."
+> "You definitely held us at the highest standards, and I am extremely sorry that I couldn't meet the expectations."
 
 Again, shifting the responsibility and making it about "me" and "my standards." I think the *lowest* standard was they film and capture all the raw footage, because you signed on it.
 
