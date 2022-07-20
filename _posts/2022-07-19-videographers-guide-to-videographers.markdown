@@ -111,6 +111,6 @@ Mistake 5.
 
 I hope these reflections are useful to anyone who may be looking to hire a videographer on their own. I wish I had known better what to look out for and what questions to ask. I'm sure I won't make the same mistakes again.
 
-It really hurts to be minimized and taken advantage of. It leaves impressions that remain etched for a long time. One of the most insightful commentaries of this is [Dave Chappelle: Unforgiven | Exposing Comedy Central](https://youtu.be/EJJ-Pu8WsZU?t=140) at 2:20 where he describes how a grown adult stole a joke from 15 year-old Dave Chappelle. I know it will be a continous practice to internalize and overcome this. I know it will make me a better person.
+It really hurts to be minimized and taken advantage of. It leaves impressions that remain etched for a long time. One of the most insightful commentaries of this is [Dave Chappelle: Unforgiven &#124; Exposing Comedy Central](https://youtu.be/EJJ-Pu8WsZU?t=140) at 2:20 where he describes how a grown adult stole a joke from 15 year-old Dave Chappelle. I know it will be a continous practice to internalize and overcome this. I know it will make me a better person.
 
 For now, I have what footage I have. I will be be creative, happy, and make the best of it. Our wedding was magical, and I will make something magical to share to with those I love.
