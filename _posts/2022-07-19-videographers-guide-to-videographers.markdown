@@ -101,7 +101,7 @@ What do you do though if you've trusted someone with your contract and they don'
 
 > "You definitely held us at the highest standards, and I am extremely sorry that I couldn't meet the expectations."
 
-Again, shifting the responsibility and making it about "me" and "my standards." I think the *lowest* standard was they film and capture all the raw footage. They did not.
+Again, shifting the responsibility and making it about "me" and "my standards." I think the *lowest* standard was they film and capture all the raw footage. They signed on it.
 
 **I always considered myself a passionate amateur until this point, but now I realize how wide the spread in "professional" really is.** 
 
