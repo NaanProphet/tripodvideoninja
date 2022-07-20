@@ -89,7 +89,7 @@ You mean to say you delete the project even before the client has received and a
 
 What??
 
-THAT gave me insight into their editing process: if you ask for a change, they re-ingest the H264 export (which is already compressed), chop it up and do whatever, and then EXPORT it again. My father-in-law is not a video person, but he too picked up that somehow the edited videos were not as crisp as the raw footage.
+THAT gave me insight into their editing process: if you ask for a change, they re-ingest the H264 export (which is already compressed), chop it up and do whatever, then EXPORT and compress it again. This is why somehow, mysteriously the edited videos were not as crisp as the raw footage.
 
 Mistake 4.
 
