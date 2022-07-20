@@ -7,9 +7,7 @@ categories:
 ---
 
 
-I learned some painful lessons about hiring a videographer last year for our wedding.
-
-A friend who's getting married this year asked me about it. Here's what I shared.
+I learned some painful lessons about hiring a videographer last year for our wedding. A friend who's getting married this year asked me about it. Here's what I shared.
 
 ![]({% asset pug.jpg @path %})
 
