@@ -21,3 +21,12 @@
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
+// prevent masthead in fullscreen youtube vids
+// https://github.com/mmistakes/minimal-mistakes/issues/933#issuecomment-291901521
+:-webkit-full-screen-ancestor {
+    .masthead,
+    .page__footer {
+   position: static;
+ }
+}
