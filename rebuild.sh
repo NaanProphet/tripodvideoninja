@@ -1,9 +1,8 @@
 #!/bin/sh
 
-# exit on first error
-set -e
+# pass -d to this script to restart the container in the background
 
 docker stop "krishna.video"
 docker rm "krishna.video"
 docker rmi "tripodvideoninja-app"
-docker-compose up -d
+docker-compose up $@

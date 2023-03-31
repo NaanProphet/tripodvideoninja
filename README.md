@@ -10,7 +10,8 @@ Personal videography site created using Jekyll, built and hosted by [Netlify](ht
 
 1. Ensure [Docker Desktop](https://www.docker.com/products/docker-desktop) is installed and running in the background.
 2. Create a new file `.env.dev` with the Algolia Admin API Key. This file is automatically excluded from being committed. Example: `echo ALGOLIA_API_KEY=my_api_key > .env.dev`
-3. Run `docker-compose up -d` and visit <http://localhost:4000> after the container starts up. It may still be building for 2-5 minutes in the background before the site is up. View the logs in Docker Desktop for more detail.
+3. Run `./start.sh` and visit <http://localhost:4000> after the container starts up. It may still be building for 2-5 minutes in the background before the site is up. View the logs in Docker Desktop for more detail.
+4. Use `shutdown.sh` and `rebuild.sh` accordingly. Note the `-d` argument can be passed to this script to start the Docker container in daemon/background mode.
 
 
 **Notes**
