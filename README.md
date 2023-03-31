@@ -9,16 +9,16 @@ Personal videography site created using Jekyll, built and hosted by [Netlify](ht
 ## Running Locally via Docker
 
 1. Ensure [Docker Desktop](https://www.docker.com/products/docker-desktop) is installed and running in the background.
-2. Create a new file `.env.dev` with the Algolia Admin API Key. This file is excluded automatically as part of .gitignore. `echo ALGOLIA_API_KEY=<my_api_key> > .env.dev`
+2. Create a new file `.env.dev` with the Algolia Admin API Key. This file is automatically excluded from being committed. Example: `echo ALGOLIA_API_KEY=my_api_key > .env.dev`
 3. Run `docker-compose up -d` and visit <http://localhost:4000> after the container starts up.
 
 
 **Notes**
 
 * Any edits to pages will automatically refresh.
-* To regenerate Algolia indexes, simply restart the container or run `build-dev.sh` manually from the Docker terminal. Algolia is used for searching posts and used to populate the homepage.
-* Changes to the `Dockerfile` like upgrading the base OS image should be followed by deleting the image from Docker Desktop. Otherwise `docker-compose` will reuse the old image when it spins up the container.
-* If `docker-compose up` throws an error saying `.env.dev: no such file or directory` please create an `.env.dev` file according to the instructions above.
+* To regenerate Algolia indexes, simply restart the container or run `build-dev.sh` manually from the Docker terminal. Algolia indexes are used for searching posts and populating the homepage.
+* Changes to the `Dockerfile` (like upgrading the base OS image) should be followed by manually deleting the image from Docker Desktop. Otherwise `docker-compose` will reuse the old image when it spins up the container.
+* If `docker-compose up` throws the error `.env.dev: no such file or directory` please create an `.env.dev` file according to the instructions above.
 
 
 ## CI/CD
