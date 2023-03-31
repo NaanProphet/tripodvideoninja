@@ -18,9 +18,9 @@ I initially called the videographer and inquired about his workflow before signi
 
 I specifically asked if he would record and sync audio from the mixer during the wedding. He seemed to downplay the importance of it ("shotgun mic would be good enough") and I deferred. I didn't realize at the time this actually hinted at a greater lack of expertise in syncing multiple angles of video together! More on that [later](##raw-footage-is-great-if-its-recorded).
 
-After about ten minutes, he said he had to go and that I should route future details through the photographer. It seemed like he did not wish to directly contacted. Overall did not hit it off like two videographers talking to each other.
+After about ten minutes, he said he had to go and that I should route future details through the photographer. It seemed like he did not wish to be directly contacted. Overall we did not hit it off like two videographers talking to each other.
 
-In retrospect, I should have known the videographer didn't care enough to take me seriously. I knew I had qualms about moving forward, but I didn't know how to go about it.
+In retrospect, I should have seen that the videographer didn't care enough to take me seriously. I knew I had qualms about moving forward, but I didn't know how to go about it.
 
 **Could I do it again, I would not have let what I knew I wanted be downplayed so easily.** I also would have asked better questions regarding:
 
@@ -62,9 +62,9 @@ As a reader you may say, "Krishna, surely you reviewed their work before hiring 
 
 That is the realization: I didn't review *all* their work. We only reviewed what they shared...the highlight videos posted on their Vimeo page. These looked good, and we also saw one of our previous friends hire them too. However the highlight reels offered very little insight into how they record/sync footage for the ceremonies.
 
-**So if you have multiple work products you are paying for, ask to review examples of all of them. When making highlight videos, you don’t sweat what you don’t record, only choose the best parts, and create something nice for 15 minutes. That's entirely a different product from recording a two hour ceremony in multicam.**
+**If there are multiple work products you are paying for, ask to review examples of all of them. With highlight videos, videographers don’t sweat what they don’t record, only choose the best parts, and create something nice for 15 minutes. That's an entirely different product from recording a two hour ceremony in multicam.**
 
-If it is a privacy concern (reasonable), ask if you can request permission from one or more of their recent clients.
+If privacy is a concern (reasonable), ask if you can request permission from one or more of their recent clients.
 
 Mistake #2.
 
