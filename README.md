@@ -16,7 +16,7 @@ Personal videography site created using Jekyll, built and hosted by [Netlify](ht
 **Notes**
 
 * Any edits to pages will automatically refresh.
-* To regenerate Algolia indexes, simply restart the container or run `algolia-dev.sh` manually from the Docker terminal. Algolia indexes are used for searching posts and populating the homepage.
+* To regenerate Algolia indexes, simply restart the container or run `algolia-dev.sh` manually from the Docker terminal. Algolia indexes are used for searching posts and populating the homepage. Note: Algolia is setup to have separate dev and production indexes, so running the script locally will not change the production site.
 * Changes to the `Dockerfile` (like upgrading the base OS image) should be followed by manually deleting the image from Docker Desktop. Otherwise `docker-compose` will reuse the old image when it spins up the container.
 * If `docker-compose up` throws the error `.env.dev: no such file or directory` please create an `.env.dev` file according to the instructions above.
 
