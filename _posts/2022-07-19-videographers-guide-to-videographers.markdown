@@ -18,9 +18,9 @@ I initially called the videographer and inquired about his workflow before signi
 
 I specifically asked if he would record and sync audio from the mixer during the wedding. He seemed to downplay the importance of it ("shotgun mic would be good enough") and I deferred. I didn't realize at the time this actually hinted at a greater lack of expertise in syncing multiple angles of video together! More on that [later](##raw-footage-is-great-if-its-recorded).
 
-After about ten minutes, he said he had to go and that I should route future details through the photographer. It seemed like he did not wish to directly contacted. Overall did not hit it off like two videographers talking to each other.
+After about ten minutes, he said he had to go and that I should route future details through the photographer. It seemed like he did not wish to be directly contacted. Overall we did not hit it off like two videographers talking to each other.
 
-In retrospect, I should have known the videographer didn't care enough to take me seriously. I knew I had qualms about moving forward, but I didn't know how to go about it.
+In retrospect, I should have seen that the videographer didn't care enough to take me seriously. I knew I had qualms about moving forward, but I didn't know how to go about it.
 
 **Could I do it again, I would not have let what I knew I wanted be downplayed so easily.** I also would have asked better questions regarding:
 
