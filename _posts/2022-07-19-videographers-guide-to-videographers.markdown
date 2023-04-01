@@ -6,7 +6,7 @@ date:   2022-07-19 10:56:00 Z
 categories: 
 ---
 
-I learned some hard lessons about hiring a videographer last year for our wedding. A friend who's getting married this year asked me about it. Here's what I shared.
+I learned some hard lessons about hiring a videographer last year for our wedding. A friend who's getting married this year asked about it. Here's what I shared.
 
 ![]({% asset pug.jpg @path %})
 
@@ -14,25 +14,25 @@ I learned some hard lessons about hiring a videographer last year for our weddin
 
 Our photographer pulled in his goto videographer. The photographer was excellent so we extended a lot of trust.
 
-I initially called the videographer and inquired about his workflow before signing the contract. I saw his Vimeo page and the work he creates. I inquired about his recording techniques, the gear he uses, and so on.
+I initially called the videographer and inquired about his workflow before signing the contract. I saw his Vimeo page and the work he posted. I inquired about his recording techniques, the gear he uses, and so on.
 
-I specifically asked if he would record and sync audio from the mixer during the wedding. He seemed to downplay the importance of it ("shotgun mic would be good enough") and I deferred. I didn't realize at the time this actually hinted at a greater lack of expertise in syncing multiple angles of video together! More on that [later](##raw-footage-is-great-if-its-recorded).
+I specifically asked if he would record and sync audio from the mixer during the wedding. He seemed to downplay the importance of it ("shotgun mic would be good enough") and I deferred. What I didn't realize at the time was this hinted at a more serious lack of expertise in syncing multiple angles of video together! More on that [later](##raw-footage-is-great-if-its-recorded).
 
-After about ten minutes, he said he had to go and that I should route future details through the photographer. It seemed like he did not wish to be directly contacted. Overall we did not hit it off like two videographers talking to each other.
+After about ten minutes, he said he had to go and that I should route future details through the photographer. It seemed like he did not wish to be directly contacted. Overall we did not hit it off like two videographers connecting to each other.
 
-In retrospect, I should have seen that the videographer didn't care enough to take me seriously. I knew I had qualms about moving forward, but I didn't know how to go about it.
+In retrospect, I should have seen that the videographer didn't understand what was important to me. Maybe he didn't take me seriously. I knew I had qualms about moving forward, but I didn't know how to go about it.
 
-**Could I do it again, I would not have let what I knew I wanted be downplayed so easily.** I also would have asked better questions regarding:
+**Could I do it again, I would not have let what I knew I wanted be downplayed so easily.** I also would have asked better questions such as:
 
 - How do they record in multicam and how do they sync the angles?
-- Who are the people that will be filming?
+- Who are the people that will be filming? (Are they a tight knit team or more like a body shop?)
 - Do they keep some cameras rolling the whole time? 
 - Will you be onsite? If not, what is your role?
-- What other events have you filmed?
+- What other types of events have you filmed?
 
-If the answers were not satisfactory or it seemed like he was not really listening to my asks, I should have had the confidence to walk away and share with him that I'm looking for a higher standard.
+If the answers were not satisfactory or it seemed like he was not really listening to my asks, I should have had the confidence to walk away and politely share that I'm looking for a higher standard.
 
-In the end, they were going to do what they always do: a lather-rinse-repeat wedding job. It didn't matter that we politely informed them (from the very beginning) I was a freelance videographer too or that I shared my site with him. I'm a "kid" getting married after all, and they're the "experts."
+In the end, they were largely going to do what they always do: a lather-rinse-repeat wedding job. It didn't matter that we politely informed them (from the very beginning) I was a freelance videographer too or that I shared my site with him. I'm a "kid" getting married after all, and they're the "experts."
 
 Mistake #1.
 
@@ -48,23 +48,23 @@ The editing sucked. How else can I say it?
 - Boomy audio not synced with the mixer
 - A curious, pervasive fuzzy quality in the edited videos (more on that [below](#timespan-of-project-files))
 
-I sincerely do not believe the folks who edited the videos would have watched them if it were their own event. The job was perfunctory. They obviously thought otherwise. 
+I sincerely do not believe the folks who edited the videos would have watched them if it were their own event. The job was perfunctory. They obviously claimed otherwise. 
 
 > "Can all these be better? Yes, absolutely. But is it horrible and not even worth watching? I disagree with that."
 
-From this, I realized editing is inherently subjective and thus difficult to shape. This is especially true when the other person is not shapeable because of the way they see their many years of experience.
+From this, I realized editing is inherently subjective and thus difficult to shape. This is especially true when the other person sees their many years of experience as a reason to remain rigid.
 
 > "We've done hundreds of weddings, and we have not once received remarks like this. We understand everyone has different expectations," BUT [insert statement that negates everything that came before the word BUT].
 
-It was a way of invalidating my concern in a pseduo-democratic fashion—a tactful way to make you feel like **you're** the one with the problem.
+It was a way of invalidating my concern in a pseduo-democratic fashion, a tactful way to make you feel like **you're** the one with the problem.
 
 As a reader you may say, "Krishna, surely you reviewed their work before hiring them. Didn't you know what you were getting into?"
 
-That is the realization: I didn't review *all* their work. We only reviewed what they shared...the highlight videos posted on their Vimeo page. These looked good, and we also saw one of our previous friends hire them too. However the highlight reels offered very little insight into how they record/sync footage for the ceremonies.
+That is the realization: I didn't review *all* their work. I only reviewed what they shared...the highlight videos posted on their Vimeo page. These looked good, and we also saw one of our previous friends hire them. However the highlight reels offered very little insight into how they record/sync footage for the ceremonies.
 
-**If there are multiple work products you are paying for, ask to review examples of all of them. With highlight videos, videographers don’t sweat what they don’t record, only choose the best parts, and create something nice for 15 minutes. That's an entirely different product from recording a two hour ceremony in multicam.**
+When making highlight videos, you don’t sweat what you don’t record, only choose the best parts, and create something nice for 15 minutes. That's entirely a different product from recording a two hour ceremony in multicam.
 
-If privacy is a concern (reasonable), ask if you can request permission from one or more of their recent clients.
+**If there are multiple work products you are paying for, ask to review examples of all of them. If privacy is a concern (reasonable), ask if you can request permission from one or more of their recent clients.**
 
 Mistake #2.
 
