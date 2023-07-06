@@ -1,4 +1,4 @@
-FROM ruby:2.6
+FROM arm64v8/ruby:2.6
 
 SHELL ["/bin/bash", "-c"]
 
