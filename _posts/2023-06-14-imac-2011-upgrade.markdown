@@ -3,7 +3,7 @@ layout: single
 title: Mid-2011 iMac Upgrade
 subtitle: To Mojave, and Beyond!
 date:   2023-06-14 10:56:00 Z
-categories: 
+categories: mac
 ---
 
 ### Why Upgrade

@@ -3,7 +3,7 @@ layout: single
 title:  Conforming FiLMiC Video for NLEs
 subtitle: iOS = Conform
 date:   2020-03-14 21:15:00 Z
-categories: post
+categories: repair
 ---
 
 

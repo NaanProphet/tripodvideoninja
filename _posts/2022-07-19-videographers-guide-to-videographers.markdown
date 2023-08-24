@@ -3,20 +3,20 @@ layout: single
 title: A Videographer's Guide to Hiring a Videographer
 subtitle: Hard-earned Wedding Mistakes
 date:   2022-07-19 10:56:00 Z
-categories: 
+categories: misc
 ---
 
-I learned some hard lessons about hiring a videographer last year for our wedding. A friend who's getting married this year asked about it. Here's what I shared.
+I learned some hard lessons about hiring a videographer in 2022 for our wedding. A friend who's getting married asked for advice. Here's what I shared.
 
 ![]({% asset pug.jpg @path %})
 
 ### Communication is Key
 
-Our photographer pulled in his goto videographer. The photographer was excellent so we extended a lot of trust.
+Our photographer pulled in his favorite videographer. The photographer was excellent so we extended a lot of trust.
 
 I initially called the videographer and inquired about his workflow before signing the contract. I saw his Vimeo page and the work he posted. I inquired about his recording techniques, the gear he uses, and so on.
 
-I specifically asked if he would record and sync audio from the mixer during the wedding. He seemed to downplay the importance of it ("shotgun mic would be good enough") and I deferred. What I didn't realize at the time was this hinted at a more serious lack of expertise in syncing multiple angles of video together! More on that [later](##raw-footage-is-great-if-its-recorded).
+I distinctly remember asking if he would record and sync audio from the mixer during the wedding. He seemed to downplay the importance of it ("shotgun mic would be good enough") and I deferred...what a mistake that was! More on that [later](##raw-footage-is-great-if-its-recorded).
 
 After about ten minutes, he said he had to go and that I should route future details through the photographer. It seemed like he did not wish to be directly contacted. Overall we did not hit it off like two videographers connecting to each other.
 
@@ -74,17 +74,17 @@ To some extent, I reluctantly anticipated the quality of the edited videos would
 
 As part of the contract, I had the foresight of requesting raw multicam footage of the events on a 2 TB hard drive provided by me. I specifically recall confirming that the space would be more than enough.
 
-**Can you believe it? The cameras weren't even recording the whole time during events.** Like even when people are talking. I synced all the raw footage they provided ([PluralEyes](https://pluralsynchronizer.com) ftw) and there are parts where only one camera is rolling. We paid for it, and we didn't get it.
+**Can you believe it? The cameras weren't even recording the whole time during events.** Like even when people are talking. I synced all the raw footage provided ([PluralEyes](https://pluralsynchronizer.com) ftw) and there are parts where only one camera is rolling. We paid for it, and we didn't get it.
 
 What's worse, sometimes the single camera went out of focus. I specifically cited an example where a camera goes in and out of focus eight times within 45 seconds, so I can't edit around it. Was the cameraman learning on the job or something? An out of focus camera, with no secondary angle, is not acceptable.
 
 Again, would this have been a problem if it were footage for a highlight video? Not at all. Just snip-snip, edit around it, and no one is the wiser. Sadly for me, there is no way to salvage those moments now.
 
-**It's clear to me now that filming concerts gave me a completely different mindset for shooting in multicam. Every moment is precious. These people didn't know or care how to shoot in multicam.**
+**It's clear to me now that filming concerts gave me a completely different mindset for shooting in multicam. Every moment is precious. These people didn't know or care how to shoot in multicam.** What I didn't realize at the time of talking to the videographer was that his downplay of recording audio from the mixer indicated a more serious lack of expertise in syncing multiple angles of video together! People tend to downplay what they don't know/find important.
 
 At one point they argued that it takes up a lot of space to keep the cameras rolling the whole time. Isn't that what they're paid for? They didn't record audio from the mixer for the main wedding ceremony either, and that is peanuts in storage compared to video. The most rational explanation is that someone forgot—or thought they knew better.
 
-**If you request multicam, ask if they will keep the cameras rolling the whole time. Find out how much DELTA there is between what they always do vs. what you're asking, because otherwise the person you hire may just wing it. If they downplay or minimize the ask, it might be because it cuts into their margin and they need to hire more people.**
+**If you request multicam, ask if they will keep the cameras rolling the whole time. Find out how much DELTA there is between what they always do vs. what you're asking, because otherwise the person you hire may just wing it. If they downplay or minimize the ask, it might be because it cuts into their margin and they need to hire more people, or they don't know how.**
 
 Mistake #3.
 
