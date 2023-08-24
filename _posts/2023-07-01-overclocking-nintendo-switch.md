@@ -1,6 +1,18 @@
-# Overclocking a Nintendo Switch for Online Play
+---
+layout: single
+title: Overclocking the Nintendo Switch for Online Play
+subtitle: Minimizing Ban Risk
+date:   2023-06-14 10:56:00 Z
+categories: misc
+---
 
-I enjoy playing Overcooked on the Nintendo Switch. Unfortunately after seeing the game run on other consoles and realizing how much smoother and quicker it could be, I wanted to find a way to bring that same experience on my Switch. Enter the world of toeing the line between performance tuning a gaming console and still playing online.
+### To Hack or not to Hack
+
+Toeing the line between performance tuning a jailbroken gaming console and still phoning home online to Nintendo.
+
+I enjoy playing Overcooked on the Nintendo Switch. Unfortunately after realizing how smoother and quicker the game runs on other consoles, I wanted to find a way to bring that same experience to my Switch—and not get banned. Here's how I did it.
+
+*Note: this isn't exactly a post about editing, but it's still related to GPUs and graphics, right?*
 
 ### Objectives
 
