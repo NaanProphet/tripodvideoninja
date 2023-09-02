@@ -3,16 +3,14 @@ layout: single
 title: Overclocking the Nintendo Switch for Online Play
 subtitle: Minimizing Ban Risk
 date:   2023-06-14 10:56:00 Z
-categories: misc
+categories: tech
 ---
 
 ### To Hack or not to Hack
 
-Toeing the line between performance tuning a jailbroken gaming console and still phoning home online to Nintendo.
+Toeing the line between performance tuning a jailbroken gaming console and still phoning home online to Nintendo. I'm in! Here's how I did it.
 
-I enjoy playing Overcooked on the Nintendo Switch. Unfortunately after realizing how smoother and quicker the game runs on other consoles, I wanted to find a way to bring that same experience to my Switch—and not get banned. Here's how I did it.
-
-*Note: this isn't exactly a post about editing, but it's still related to GPUs and graphics, right?*
+For context, I enjoy playing Overcooked on the Nintendo Switch. Unfortunately after realizing how smoother and quicker the game runs on other consoles, I wanted to find a way to bring that same experience to my Switch—and not get banned.
 
 ### Objectives
 
@@ -35,11 +33,11 @@ I enjoy playing Overcooked on the Nintendo Switch. Unfortunately after realizing
 
 1. The Switch will not be used for game piracy. This immediately lowers ban risk. **䷏ Buy games.**
 2. Game cheats/mods (when applied to certain games) can leave their trace behind in save files. When these are seen by Nintendo they can eventually cause a ban.[^6] **䷏ No game cheats or mods** to prevent any accidental pushes.
-4. Install CFW to the internal sysNAND to play online. This is to ensure the device always contacts Nintendo's servers with its original signature and serial number. Note: writing CFW to the internal memory by itself does not trigger a ban.[^5] **䷏ Install CFW to the internal sysNAND.**
+4. Install CFW to the internal sysNAND to play online. This is to ensure the device always contacts Nintendo's servers with its original signature and serial number. Note: writing CFW to the internal memory by itself does not trigger a ban.[^5] **䷏ Install CFW to the internal sysNAND to play online.**
 5. Simply using `sys-clk` to overclock the Switch does not result in bans, even during online play.[^4] **䷏ Overclocking is not a bannable activity.**
 5. If an ADDITIONAL emuNAND partition is desired (for cheats/mods), absolutely make sure Nintendo's servers are blocked and never contacted on the emuNAND. Otherwise when Nintendo sees the emulated signature and compares it to the stock signature (assuming the stock Switch has already gone online at least once), it will trigger a ban. **䷏ CFW on an external emuNAND must never, ever contact the internet.**
-6. Never mix same gave files from your emuNAND and sysNAND, especially if there are mods/cheats in the emuNAND. This is largely uncharted and full of unnecessary risk. **䷏ Isolate the emuNAND as an completely separate entity with its own save files.**
-6. There are two types of bans: device bans and account bans. Unless you cheat online, at worst only the device will be banned but your Nintendo Online account will still be fine. **䷏ Play fair; never cheat online.** (Contradiction: people cheating online <https://projectpokemon.org/home/forums/topic/63032-is-it-possible-to-transfer-your-save-file-from-a-non-hacked-switch-to-a-hacked-one-edit-it-and-then-put-it-back-to-my-non-hacked-switch-safely/>)
+6. Never mix same gave files from your emuNAND and sysNAND, especially if there are mods/cheats in the emuNAND. This is largely uncharted and full of unnecessary risk. **䷏ Isolate the emuNAND as a completely separate entity with its own save files. KISS.**
+6. There are two types of bans: device bans and account bans. Unless you cheat online, at worst, only the device will be banned but your Nintendo Online account will still be fine. **䷏ Play fair; don't be a jerk and don't cheat online.** (Contradiction: people cheating online <https://projectpokemon.org/home/forums/topic/63032-is-it-possible-to-transfer-your-save-file-from-a-non-hacked-switch-to-a-hacked-one-edit-it-and-then-put-it-back-to-my-non-hacked-switch-safely/>)
 7. All guides emphasize the importance of creating an initial backup of the eMMC/sysNAND, but few discuss restoring it. With time, the original backup will age and likely be on older firmware. If you suddenly need to restore the original backup and the firmware versions are different, it is a red flag and Nintendo will trigger a ban.[^3] **䷏ Take regular, frequent backups of the internal eMMC/sysNAND in case the need to restore it ever arises.**
 8. NAND backups (and even key backups) are not traceable by Nintendo and pose no ban risk.
 8. The Switch's internal device logs are not wiped even during a factory reset. This means if
