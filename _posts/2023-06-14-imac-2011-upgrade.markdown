@@ -10,7 +10,7 @@ categories: mac
 
 Older iMacs can't be upgraded to MacOS 10.14 Mojave (or higher) because the stock GPU it has doesn't support Metal. The last, officially supported non-Metal MacOS for the 2011 iMac is 10.13 High Sierra.[^12] Time to go unofficial.
 
-Apple Logic Pro X 10.5[^13] requires Mojave, and at the time I was collaborating on some projects created in Logic 10.5. To use them on the iMac, I need to swap the GPU with one that supports Metal and then install the Mojave unofficially.[^19]
+Apple Logic Pro X 10.5[^13] requires Mojave, and at the time I was collaborating on some projects created in Logic 10.5. To use them on the iMac, I need to swap the GPU with one that supports Metal and then install Mojave unofficially.[^19]
 
 Since I'm already performing computer surgery, I might as well upgrade the CPU as well. Music production can be particularly CPU intensive, especially when using software instruments or synths.[^14]
 
@@ -74,11 +74,11 @@ The new GPU is from a used Dell/Alienware laptop.
 
 * Nvidia Quadro K610M 1024 MB (MXM-A form factor)
 
-Note: the K610M is the least powerful upgrade, but it is the most straightforward[^9] without requiring any heatsink[^6] or temperature sensor[^8] modifications. Since this machine will primarily be used for audio production (rather than video), a simple GPU card is OK.
+Note: the K610M is the least powerful upgrade, but it is the most straightforward[^9] without requiring any heatsink[^6] or temperature sensor[^8] modifications. Since this machine will be used primarily for audio production (rather than video), a simple GPU card is OK.
 
 #### Sourcing
 
-Finding a CPU on eBay was easy. GPUs on the other hand were reported to be hit/miss.
+Finding a CPU on eBay was easy. On the other hand, the GPU was reported to be hit/miss.
 
 ![]({% asset "imac-Screen Shot 2020-05-30 at 5.28.08 AM.png" @path %})
 
